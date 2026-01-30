@@ -1,0 +1,63 @@
+[0.005s] Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_pick_place -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place
+[0.049s] -- The C compiler identification is GNU 13.3.0
+[0.087s] -- The CXX compiler identification is GNU 13.3.0
+[0.097s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.151s] -- Detecting C compile features
+[0.151s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.209s] -- Detecting CXX compiler ABI info - done
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.215s] -- Detecting CXX compile features
+[0.215s] -- Detecting CXX compile features - done
+[0.218s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.302s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.339s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.480s] -- Configuring done (0.5s)
+[0.482s] -- Generating done (0.0s)
+[0.483s] -- Build files have been written to: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place
+[0.486s] Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_pick_place -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place
+[0.487s] Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place -- -j5 -l5
+[0.513s] Built target ament_cmake_python_symlink_scripts
+[0.627s] running egg_info
+[0.628s] creating scripts.egg-info
+[0.636s] writing scripts.egg-info/PKG-INFO
+[0.636s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.636s] writing top-level names to scripts.egg-info/top_level.txt
+[0.636s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.664s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.665s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.680s] Built target ament_cmake_python_build_scripts_egg
+[0.686s] Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place -- -j5 -l5
+[0.687s] Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place
+[0.690s] -- Install configuration: ""
+[0.691s] -- Execute custom install script
+[0.691s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/pythonpath.sh
+[0.695s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/pythonpath.dsv
+[0.701s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts-0.1.0-py3.12.egg-info/PKG-INFO
+[0.705s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts-0.1.0-py3.12.egg-info/SOURCES.txt
+[0.709s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts-0.1.0-py3.12.egg-info/dependency_links.txt
+[0.713s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts-0.1.0-py3.12.egg-info/top_level.txt
+[0.717s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts/__init__.py
+[0.721s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts/pick_place_demo.py
+[0.725s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/simpler_pick_place/pick_place_demo.py
+[0.729s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/ament_index/resource_index/package_run_dependencies/simpler_pick_place
+[0.734s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/ament_index/resource_index/parent_prefix_path/simpler_pick_place
+[0.739s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/ament_prefix_path.sh
+[0.743s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/ament_prefix_path.dsv
+[0.747s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/path.sh
+[0.751s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/path.dsv
+[0.755s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/local_setup.bash
+[0.759s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/local_setup.sh
+[0.763s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/local_setup.zsh
+[0.767s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/local_setup.dsv
+[0.770s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.dsv
+[0.775s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/ament_index/resource_index/packages/simpler_pick_place
+[0.778s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/cmake/simpler_pick_placeConfig.cmake
+[0.782s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/cmake/simpler_pick_placeConfig-version.cmake
+[0.786s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.xml
+[0.810s] Listing '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts'...
+[0.810s] Compiling '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts/__init__.py'...
+[0.810s] Compiling '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts/pick_place_demo.py'...
+[0.815s] Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place

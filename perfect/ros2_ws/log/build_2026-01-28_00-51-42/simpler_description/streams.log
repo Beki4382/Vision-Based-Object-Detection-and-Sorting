@@ -1,0 +1,56 @@
+[0.008s] Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.094s] -- The CXX compiler identification is GNU 13.3.0
+[0.103s] -- Detecting C compiler ABI info
+[0.150s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.218s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.218s] -- Detecting CXX compile features
+[0.219s] -- Detecting CXX compile features - done
+[0.223s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.307s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.344s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.422s] -- Configuring done (0.4s)
+[0.423s] -- Generating done (0.0s)
+[0.427s] -- Build files have been written to: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description
+[0.427s] Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description
+[0.428s] Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description -- -j5 -l5
+[0.450s] Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description -- -j5 -l5
+[0.455s] Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description
+[0.459s] -- Install configuration: ""
+[0.460s] -- Execute custom install script
+[0.460s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/models/green_cube/model.config
+[0.465s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/models/green_cube/model.sdf
+[0.469s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/models/modern_table/materials/scripts/table.material
+[0.473s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/models/modern_table/materials/textures/griglia.png
+[0.477s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/models/modern_table/meshes/modern_table.dae
+[0.481s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/models/modern_table/meshes/working area.png
+[0.486s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/models/modern_table/model.config
+[0.490s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/models/modern_table/model.sdf
+[0.494s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/models/red_cube/model.config
+[0.498s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/models/red_cube/model.sdf
+[0.504s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/worlds/pick_place.sdf
+[0.507s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/launch/spawn_cube.launch.py
+[0.511s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/urdf/robotiq_2f_85_patched.urdf.xacro
+[0.515s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/urdf/ur5e_robotiq.urdf.xacro
+[0.519s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/config/ur5e_robotiq.srdf
+[0.523s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/ament_index/resource_index/package_run_dependencies/simpler_description
+[0.528s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/ament_index/resource_index/parent_prefix_path/simpler_description
+[0.532s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/environment/ament_prefix_path.sh
+[0.537s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/environment/ament_prefix_path.dsv
+[0.541s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/environment/path.sh
+[0.545s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/environment/path.dsv
+[0.550s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/local_setup.bash
+[0.555s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/local_setup.sh
+[0.559s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/local_setup.zsh
+[0.563s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/local_setup.dsv
+[0.568s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/package.dsv
+[0.573s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/ament_index/resource_index/packages/simpler_description
+[0.578s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/cmake/simpler_descriptionConfig.cmake
+[0.582s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/cmake/simpler_descriptionConfig-version.cmake
+[0.586s] -- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/package.xml
+[0.591s] Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description

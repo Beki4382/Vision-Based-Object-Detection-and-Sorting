@@ -1,0 +1,1 @@
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup/ament_cmake_core/simpler_bringupConfig-version.cmake

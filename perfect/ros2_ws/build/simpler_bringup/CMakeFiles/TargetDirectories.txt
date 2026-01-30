@@ -1,0 +1,9 @@
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup/CMakeFiles/uninstall.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup/CMakeFiles/simpler_bringup_uninstall.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup/CMakeFiles/test.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup/CMakeFiles/edit_cache.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup/CMakeFiles/rebuild_cache.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup/CMakeFiles/list_install_components.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup/CMakeFiles/install.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup/CMakeFiles/install/local.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup/CMakeFiles/install/strip.dir

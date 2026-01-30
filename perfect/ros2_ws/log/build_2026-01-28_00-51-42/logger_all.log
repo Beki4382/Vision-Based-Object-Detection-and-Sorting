@@ -1,0 +1,254 @@
+[0.044s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.044s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=5, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xe2a515b88d10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xe2a5158c7380>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xe2a5158c7380>>)
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.066s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws'
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_bringup) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_bringup) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_bringup) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_bringup) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_bringup) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_bringup) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_bringup) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_bringup) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simpler_bringup' with type 'ros.ament_cmake' and name 'simpler_bringup'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_description) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_description) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_description) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_description) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_description) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_description) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_description) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_description) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_description) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simpler_description' with type 'ros.ament_cmake' and name 'simpler_description'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_pick_place) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_pick_place) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_pick_place) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_pick_place) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_pick_place) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_pick_place) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_pick_place) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_pick_place) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/simpler_pick_place) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simpler_pick_place' with type 'ros.ament_cmake' and name 'simpler_pick_place'
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_description' build argument 'cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_description' build argument 'cmake_target' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.091s] DEBUG:colcon.colcon_core.verb:Building package 'simpler_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description', 'merge_install': False, 'path': '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_description', 'symlink_install': True, 'test_result_base': None}
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_pick_place' build argument 'cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_pick_place' build argument 'cmake_target' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_pick_place' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_pick_place' build argument 'cmake_clean_cache' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_pick_place' build argument 'cmake_clean_first' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_pick_place' build argument 'cmake_force_configure' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_pick_place' build argument 'ament_cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_pick_place' build argument 'catkin_cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_pick_place' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.091s] DEBUG:colcon.colcon_core.verb:Building package 'simpler_pick_place' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place', 'merge_install': False, 'path': '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_pick_place', 'symlink_install': True, 'test_result_base': None}
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_bringup' build argument 'cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_bringup' build argument 'cmake_target' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.091s] Level 5:colcon.colcon_core.verb:set package 'simpler_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.091s] DEBUG:colcon.colcon_core.verb:Building package 'simpler_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup', 'merge_install': False, 'path': '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.092s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.092s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.092s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_description' with build type 'ament_cmake'
+[0.092s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_description'
+[0.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.094s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.096s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_pick_place' with build type 'ament_cmake'
+[0.096s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_pick_place'
+[0.097s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description
+[0.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_pick_place -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place
+[0.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description
+[0.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description -- -j5 -l5
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description -- -j5 -l5
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_pick_place -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place -- -j5 -l5
+[0.684s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simpler_description)
+[0.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_description
+[0.685s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description' for CMake module files
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description' for CMake config files
+[0.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('simpler_description', 'cmake_prefix_path')
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/hook/cmake_prefix_path.dsv'
+[0.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/hook/cmake_prefix_path.sh'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/bin'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/lib/pkgconfig/simpler_description.pc'
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/lib/python3.12/site-packages'
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/bin'
+[0.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/package.dsv'
+[0.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/package.sh'
+[0.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/package.bash'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/package.zsh'
+[0.689s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/colcon-core/packages/simpler_description)
+[0.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simpler_description)
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description' for CMake module files
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description' for CMake config files
+[0.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('simpler_description', 'cmake_prefix_path')
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/hook/cmake_prefix_path.dsv'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/hook/cmake_prefix_path.sh'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/bin'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/lib/pkgconfig/simpler_description.pc'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/lib/python3.12/site-packages'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/bin'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/package.dsv'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/package.sh'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/package.bash'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/simpler_description/package.zsh'
+[0.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description/share/colcon-core/packages/simpler_description)
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place -- -j5 -l5
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place
+[0.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simpler_pick_place)
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place' for CMake module files
+[0.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place' for CMake config files
+[0.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('simpler_pick_place', 'cmake_prefix_path')
+[0.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/hook/cmake_prefix_path.dsv'
+[0.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/hook/cmake_prefix_path.sh'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/bin'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/pkgconfig/simpler_pick_place.pc'
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages'
+[0.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('simpler_pick_place', 'pythonpath')
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/hook/pythonpath.dsv'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/hook/pythonpath.sh'
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/bin'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.dsv'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.sh'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.bash'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.zsh'
+[0.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/colcon-core/packages/simpler_pick_place)
+[0.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simpler_pick_place)
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place' for CMake module files
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place' for CMake config files
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('simpler_pick_place', 'cmake_prefix_path')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/hook/cmake_prefix_path.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/hook/cmake_prefix_path.sh'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/bin'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/pkgconfig/simpler_pick_place.pc'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages'
+[0.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('simpler_pick_place', 'pythonpath')
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/hook/pythonpath.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/hook/pythonpath.sh'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/bin'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.sh'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.bash'
+[0.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.zsh'
+[0.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/colcon-core/packages/simpler_pick_place)
+[0.918s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_bringup' with build type 'ament_cmake'
+[0.919s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_bringup'
+[0.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup': AMENT_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_vision:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_bringup:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup' returned '0': AMENT_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_vision:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_bringup:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/beckydlb/Desktop/Monte/perfect/ros2_ws/src/simpler_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup': AMENT_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_vision:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_bringup:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup -- -j5 -l5
+[1.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup' returned '0': AMENT_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_vision:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_bringup:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup -- -j5 -l5
+[1.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup': AMENT_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_vision:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_bringup:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup
+[1.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simpler_bringup)
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup' for CMake module files
+[1.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup' returned '0': AMENT_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_description:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_vision:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_bringup:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_pick_place:/home/beckydlb/Desktop/Monte/camera/ros2_ws/install/simpler_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_bringup
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup' for CMake config files
+[1.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('simpler_bringup', 'cmake_prefix_path')
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/hook/cmake_prefix_path.dsv'
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/hook/cmake_prefix_path.sh'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/bin'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/lib/pkgconfig/simpler_bringup.pc'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/lib/python3.12/site-packages'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/bin'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/package.dsv'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/package.sh'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/package.bash'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/package.zsh'
+[1.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/colcon-core/packages/simpler_bringup)
+[1.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simpler_bringup)
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup' for CMake module files
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup' for CMake config files
+[1.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('simpler_bringup', 'cmake_prefix_path')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/hook/cmake_prefix_path.dsv'
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/hook/cmake_prefix_path.sh'
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/bin'
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/lib/pkgconfig/simpler_bringup.pc'
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/lib/python3.12/site-packages'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/bin'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/package.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/package.sh'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/package.bash'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/simpler_bringup/package.zsh'
+[1.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_bringup/share/colcon-core/packages/simpler_bringup)
+[1.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.468s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.472s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.472s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.472s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.485s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.486s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/local_setup.sh'
+[1.486s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/_local_setup_util_sh.py'
+[1.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/setup.sh'
+[1.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/local_setup.bash'
+[1.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/setup.bash'
+[1.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/local_setup.zsh'
+[1.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/setup.zsh'

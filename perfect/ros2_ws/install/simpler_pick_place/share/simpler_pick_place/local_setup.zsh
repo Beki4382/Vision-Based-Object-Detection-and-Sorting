@@ -1,0 +1,1 @@
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/ament_cmake_environment_hooks/local_setup.zsh

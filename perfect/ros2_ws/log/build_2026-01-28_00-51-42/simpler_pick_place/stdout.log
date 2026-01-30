@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place
+Built target ament_cmake_python_symlink_scripts
+running egg_info
+creating scripts.egg-info
+writing scripts.egg-info/PKG-INFO
+writing dependency_links to scripts.egg-info/dependency_links.txt
+writing top-level names to scripts.egg-info/top_level.txt
+writing manifest file 'scripts.egg-info/SOURCES.txt'
+reading manifest file 'scripts.egg-info/SOURCES.txt'
+writing manifest file 'scripts.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_scripts_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/pythonpath.sh
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/pythonpath.dsv
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts-0.1.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts-0.1.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts/__init__.py
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts/pick_place_demo.py
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/simpler_pick_place/pick_place_demo.py
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/ament_index/resource_index/package_run_dependencies/simpler_pick_place
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/ament_index/resource_index/parent_prefix_path/simpler_pick_place
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/ament_prefix_path.sh
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/ament_prefix_path.dsv
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/path.sh
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/environment/path.dsv
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/local_setup.bash
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/local_setup.sh
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/local_setup.zsh
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/local_setup.dsv
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.dsv
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/ament_index/resource_index/packages/simpler_pick_place
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/cmake/simpler_pick_placeConfig.cmake
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/cmake/simpler_pick_placeConfig-version.cmake
+-- Symlinking: /home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/share/simpler_pick_place/package.xml
+Listing '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts'...
+Compiling '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts/__init__.py'...
+Compiling '/home/beckydlb/Desktop/Monte/perfect/ros2_ws/install/simpler_pick_place/lib/python3.12/site-packages/scripts/pick_place_demo.py'...

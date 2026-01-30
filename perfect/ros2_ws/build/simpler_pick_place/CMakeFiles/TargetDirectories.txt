@@ -1,0 +1,11 @@
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/uninstall.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/simpler_pick_place_uninstall.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/ament_cmake_python_symlink_scripts.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/ament_cmake_python_build_scripts_egg.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/test.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/edit_cache.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/rebuild_cache.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/list_install_components.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/install.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/install/local.dir
+/home/beckydlb/Desktop/Monte/perfect/ros2_ws/build/simpler_pick_place/CMakeFiles/install/strip.dir
