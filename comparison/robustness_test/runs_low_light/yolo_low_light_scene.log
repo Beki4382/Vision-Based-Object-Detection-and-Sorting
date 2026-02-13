@@ -1,0 +1,1268 @@
+[INFO] [launch]: All log files can be found below /home/beki/.ros/log/2026-02-04-12-35-00-271064-beki-Lenovo-Legion-5-15ARH05-645989
+[INFO] [launch]: Default logging verbosity is set to INFO
+WARNING:root:[33;21mCannot infer URDF from `/opt/ros/jazzy/share/ur_moveit_config`. -- using config/ur.urdf[0m
+WARNING:root:[33;21mCannot infer SRDF from `/opt/ros/jazzy/share/ur_moveit_config`. -- using config/ur.srdf[0m
+WARNING:root:[33;21m"File /opt/ros/jazzy/share/ur_moveit_config/urdf/ur.urdf.xacro doesn't exist"[0m
+WARNING:root:[33;21mThe robot description will be loaded from /robot_description topic [0m
+WARNING:root:[33;21m"File /opt/ros/jazzy/share/ur_moveit_config/config/ur.urdf doesn't exist"[0m
+WARNING:root:[33;21mThe robot description will be loaded from /robot_description topic [0m
+[INFO] [gazebo-1]: process started with pid [645994]
+[INFO] [parameter_bridge-2]: process started with pid [645996]
+[INFO] [parameter_bridge-3]: process started with pid [645997]
+[INFO] [parameter_bridge-4]: process started with pid [645998]
+[INFO] [image_bridge-5]: process started with pid [645999]
+[INFO] [parameter_bridge-6]: process started with pid [646000]
+[INFO] [robot_state_publisher-7]: process started with pid [646001]
+[INFO] [create-8]: process started with pid [646002]
+[INFO] [spawner-9]: process started with pid [646003]
+[INFO] [spawner-10]: process started with pid [646004]
+[INFO] [spawner-11]: process started with pid [646005]
+[create-8] [INFO] [1770197701.332700001] [ros_gz_sim]: Requesting list of world names.
+[parameter_bridge-6] [INFO] [1770197701.345350946] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/camera/camera_info (gz.msgs.CameraInfo) -> /camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[robot_state_publisher-7] [INFO] [1770197701.353789262] [robot_state_publisher]: Robot initialized
+[parameter_bridge-3] [INFO] [1770197701.379051833] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/gripper/attach_red (std_msgs/msg/Empty) -> /gripper/attach_red (gz.msgs.Empty)] (Lazy 0)
+[parameter_bridge-2] [INFO] [1770197701.382678021] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.383387448] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/gripper/detach_red (std_msgs/msg/Empty) -> /gripper/detach_red (gz.msgs.Empty)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.384989348] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/gripper/state_red (gz.msgs.Boolean) -> /gripper/state_red (std_msgs/msg/Bool)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.389447322] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/gripper/attach_green (std_msgs/msg/Empty) -> /gripper/attach_green (gz.msgs.Empty)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.390459082] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/gripper/detach_green (std_msgs/msg/Empty) -> /gripper/detach_green (gz.msgs.Empty)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.391539773] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/gripper/state_green (gz.msgs.Boolean) -> /gripper/state_green (std_msgs/msg/Bool)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.393707371] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/gripper/attach_big_red (std_msgs/msg/Empty) -> /gripper/attach_big_red (gz.msgs.Empty)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.395362070] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/gripper/detach_big_red (std_msgs/msg/Empty) -> /gripper/detach_big_red (gz.msgs.Empty)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.400570325] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/gripper/state_big_red (gz.msgs.Boolean) -> /gripper/state_big_red (std_msgs/msg/Bool)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1770197701.401420128] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/pick_place_world/dynamic_pose/info (gz.msgs.Pose_V) -> /world/pick_place_world/dynamic_pose/info (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.401730284] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/gripper/attach_big_green (std_msgs/msg/Empty) -> /gripper/attach_big_green (gz.msgs.Empty)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.402683239] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/gripper/detach_big_green (std_msgs/msg/Empty) -> /gripper/detach_big_green (gz.msgs.Empty)] (Lazy 0)
+[parameter_bridge-3] [INFO] [1770197701.406196009] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/gripper/state_big_green (gz.msgs.Boolean) -> /gripper/state_big_green (std_msgs/msg/Bool)] (Lazy 0)
+[spawner-9] [INFO] [1770197701.937697092] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[gazebo-1] [1;32m[Msg] [0m[1;32mGazebo Sim Server v[0m[1;32m8.10.0[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/home/beki/Vision-Based-Object-Detection-and-Sorting/comparison/Comp_perfect_size_v3/ros2_ws/src/simpler_description/worlds/pick_place_dim.sdf[0m[1;32m].[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;36m[Dbg] [Physics.cc:899] [0m[1;36mLoaded [[0m[1;36mgz::physics::dartsim::Plugin[0m[1;36m] from library [[0m[1;36m/opt/ros/jazzy/opt/gz_physics_vendor/lib/gz-physics-7/engine-plugins/libgz-physics-dartsim-plugin.so[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Physics[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mCreate[0m[1;32m service on [[0m[1;32m/world/pick_place_world/create_multiple[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mCreate[0m[1;32m service on [[0m[1;32m/world/pick_place_world/create_multiple/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mRemove[0m[1;32m service on [[0m[1;32m/world/pick_place_world/remove[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mRemove[0m[1;32m service on [[0m[1;32m/world/pick_place_world/remove/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/pick_place_world/set_pose[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/pick_place_world/set_pose/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/pick_place_world/set_pose_vector[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPose[0m[1;32m service on [[0m[1;32m/world/pick_place_world/set_pose_vector/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mLight configuration[0m[1;32m service on [[0m[1;32m/world/pick_place_world/light_config[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mLight configuration[0m[1;32m service on [[0m[1;32m/world/pick_place_world/light_config/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPhysics[0m[1;32m service on [[0m[1;32m/world/pick_place_world/set_physics[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPhysics[0m[1;32m service on [[0m[1;32m/world/pick_place_world/set_physics/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mSphericalCoordinates[0m[1;32m service on [[0m[1;32m/world/pick_place_world/set_spherical_coordinates[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mSphericalCoordinates[0m[1;32m service on [[0m[1;32m/world/pick_place_world/set_spherical_coordinates/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mEnable collision[0m[1;32m service on [[0m[1;32m/world/pick_place_world/enable_collision[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mEnable collision[0m[1;32m service on [[0m[1;32m/world/pick_place_world/enable_collision/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mDisable collision[0m[1;32m service on [[0m[1;32m/world/pick_place_world/disable_collision[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mDisable collision[0m[1;32m service on [[0m[1;32m/world/pick_place_world/disable_collision/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/pick_place_world/visual_config[0m[1;32m] (async)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/pick_place_world/visual_config/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/pick_place_world/wheel_slip[0m[1;32m] (async)[0m[1;32m[0m
+[create-8] [INFO] [1770197702.188493298] [ros_gz_sim]: Entity creation successful.
+[INFO] [create-8]: process has finished cleanly [pid 646002]
+[gazebo-1] [INFO] [1770197703.742685578] [gz_ros_control]: [gz_ros2_control] Fixed joint [base_joint] (Entity=90)] is skipped
+[gazebo-1] [INFO] [1770197703.744541624] [gz_ros_control]: Loading controller_manager
+[gazebo-1] [INFO] [1770197703.759929497] [controller_manager]: Using ROS clock for triggering controller manager cycles.
+[gazebo-1] [INFO] [1770197703.764582113] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[gazebo-1] [WARN] [1770197703.768221711] [gz_ros_control]: Waiting RM to load and initialize hardware...
+[gazebo-1] [WARN] [1770197704.764046997] [controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[gazebo-1] [INFO] [1770197705.718166547] [controller_manager]: Received robot description from topic.
+[gazebo-1] [INFO] [1770197705.725499101] [gz_ros_control]: The position_proportional_gain has been set to: 0.1
+[gazebo-1] [INFO] [1770197705.725605746] [gz_ros_control]: Loading joint: shoulder_pan_joint
+[gazebo-1] [INFO] [1770197705.725623974] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1770197705.725641503] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.725672931] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.725700238] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.725721260] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.725734948] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.725749894] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.725763512] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1770197705.725775525] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.725804578] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.725818546] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.725839707] [gz_ros_control]: Loading joint: shoulder_lift_joint
+[gazebo-1] [INFO] [1770197705.725853046] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1770197705.725865757] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.725881122] [gz_ros_control]: 			 found initial value: -1.570000
+[gazebo-1] [INFO] [1770197705.725893413] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.725906753] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.725918695] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.725931964] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.725945443] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1770197705.725954942] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.725971214] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.725994471] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.726014514] [gz_ros_control]: Loading joint: elbow_joint
+[gazebo-1] [INFO] [1770197705.726027365] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1770197705.726039936] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.726052647] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726066126] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.726079814] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726091128] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.726105934] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726119064] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1770197705.726130517] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.726150072] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.726163412] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.726184852] [gz_ros_control]: Loading joint: wrist_1_joint
+[gazebo-1] [INFO] [1770197705.726198331] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1770197705.726212578] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.726228362] [gz_ros_control]: 			 found initial value: -1.570000
+[gazebo-1] [INFO] [1770197705.726240165] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.726251130] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726263701] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.726276411] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726289332] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1770197705.726302182] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.726319851] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.726332772] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.726353514] [gz_ros_control]: Loading joint: wrist_2_joint
+[gazebo-1] [INFO] [1770197705.726366783] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1770197705.726454990] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.726476291] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726489770] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.726501643] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726514563] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.726525039] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726545571] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1770197705.726556536] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.726577977] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.726592154] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.726611430] [gz_ros_control]: Loading joint: wrist_3_joint
+[gazebo-1] [INFO] [1770197705.726623652] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1770197705.726635454] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.726648933] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726661295] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.726676031] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726688532] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.726701243] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.726713814] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1770197705.726726525] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.726743845] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.726759908] [gz_ros_control]: 		 effort
+[gazebo-1] [INFO] [1770197705.727048064] [controller_manager]: Initialize hardware 'ur' 
+[gazebo-1] [WARN] [1770197705.727121116] [controller_manager.hardware_component.system.ur]: Executor is not available during hardware component initialization for 'ur'. Skipping node creation!
+[gazebo-1] [INFO] [1770197705.727273715] [controller_manager]: Successful initialization of hardware 'ur'
+[gazebo-1] [INFO] [1770197705.727608244] [gz_ros_control]: The position_proportional_gain has been set to: 0.1
+[gazebo-1] [INFO] [1770197705.727679620] [gz_ros_control]: Loading joint: robotiq_85_left_knuckle_joint
+[gazebo-1] [INFO] [1770197705.727695683] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1770197705.727707765] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.727730603] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1770197705.727746386] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1770197705.727760633] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1770197705.727773554] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1770197705.727837387] [controller_manager]: Initialize hardware 'gripper_controller' 
+[gazebo-1] [WARN] [1770197705.727855475] [controller_manager.hardware_component.system.gripper_controller]: Executor is not available during hardware component initialization for 'gripper_controller'. Skipping node creation!
+[gazebo-1] [INFO] [1770197705.727922381] [controller_manager]: Successful initialization of hardware 'gripper_controller'
+[gazebo-1] [INFO] [1770197705.728076376] [resource_manager]: 'configure' hardware 'gripper_controller' 
+[gazebo-1] [INFO] [1770197705.728088878] [gz_ros_control]: System Successfully configured!
+[gazebo-1] [INFO] [1770197705.728104033] [resource_manager]: Successful 'configure' of hardware 'gripper_controller'
+[gazebo-1] [INFO] [1770197705.728118001] [resource_manager]: 'activate' hardware 'gripper_controller' 
+[gazebo-1] [INFO] [1770197705.728139301] [resource_manager]: Successful 'activate' of hardware 'gripper_controller'
+[gazebo-1] [INFO] [1770197705.728224016] [resource_manager]: 'configure' hardware 'ur' 
+[gazebo-1] [INFO] [1770197705.728230092] [gz_ros_control]: System Successfully configured!
+[gazebo-1] [INFO] [1770197705.728239521] [resource_manager]: Successful 'configure' of hardware 'ur'
+[gazebo-1] [INFO] [1770197705.728247273] [resource_manager]: 'activate' hardware 'ur' 
+[gazebo-1] [INFO] [1770197705.728253000] [resource_manager]: Successful 'activate' of hardware 'ur'
+[gazebo-1] [WARN] [1770197705.728291132] [controller_manager]: Component 'gripper_controller' does not have read or write statistics initialized, skipping registration.
+[gazebo-1] [WARN] [1770197705.728314528] [controller_manager]: Component 'ur' does not have read or write statistics initialized, skipping registration.
+[gazebo-1] [INFO] [1770197705.728330172] [controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[gazebo-1] [1;32m[Msg] [0m[1;32mMaterial[0m[1;32m service on [[0m[1;32m/world/pick_place_world/wheel_slip/blocking[0m[1;32m] (blocking)[0m[1;32m[0m
+[gazebo-1] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::UserCommands[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::SceneBroadcaster[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [Sensors.cc:697] [0m[1;36mConfiguring Sensors system[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [Sensors.cc:557] [0m[1;36mSensorsPrivate::Run[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Sensors[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [Sensors.cc:532] [0m[1;36mSensorsPrivate::RenderThread started[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [Sensors.cc:337] [0m[1;36mWaiting for init[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Contact[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32mdefault[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/pick_place_world[0m[1;32m/control], [[0m[1;32m/world/pick_place_world[0m[1;32m/control/state] and [[0m[1;32m/world/pick_place_world[0m[1;32m/playback/control][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/pick_place_world[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mWorld [[0m[1;32mpick_place_world[0m[1;32m] initialized with [[0m[1;32mdefault_physics[0m[1;32m] physics profile.[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/pick_place_world[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:533] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m4[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz_ros2_control::GazeboSimROS2ControlPlugin[0m[1;36m] for entity [[0m[1;36m44[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:137] [0m[1;36mDetach topic is: [0m[1;36m/gripper/detach_red[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:143] [0m[1;36mDetachableJoint subscribing to messages on [0m[1;36m[[0m[1;36m/gripper/detach_red[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:160] [0m[1;36mAttach topic is: [0m[1;36m/gripper/attach_red[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:195] [0m[1;36mOutput topic is: [0m[1;36m/gripper/state_red[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::DetachableJoint[0m[1;36m] for entity [[0m[1;36m44[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:137] [0m[1;36mDetach topic is: [0m[1;36m/gripper/detach_green[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:143] [0m[1;36mDetachableJoint subscribing to messages on [0m[1;36m[[0m[1;36m/gripper/detach_green[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:160] [0m[1;36mAttach topic is: [0m[1;36m/gripper/attach_green[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:195] [0m[1;36mOutput topic is: [0m[1;36m/gripper/state_green[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::DetachableJoint[0m[1;36m] for entity [[0m[1;36m44[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:137] [0m[1;36mDetach topic is: [0m[1;36m/gripper/detach_big_red[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:143] [0m[1;36mDetachableJoint subscribing to messages on [0m[1;36m[[0m[1;36m/gripper/detach_big_red[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:160] [0m[1;36mAttach topic is: [0m[1;36m/gripper/attach_big_red[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:195] [0m[1;36mOutput topic is: [0m[1;36m/gripper/state_big_red[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::DetachableJoint[0m[1;36m] for entity [[0m[1;36m44[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:137] [0m[1;36mDetach topic is: [0m[1;36m/gripper/detach_big_green[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:143] [0m[1;36mDetachableJoint subscribing to messages on [0m[1;36m[[0m[1;36m/gripper/detach_big_green[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:160] [0m[1;36mAttach topic is: [0m[1;36m/gripper/attach_big_green[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:195] [0m[1;36mOutput topic is: [0m[1;36m/gripper/state_big_green[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::DetachableJoint[0m[1;36m] for entity [[0m[1;36m44[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [UserCommands.cc:1094] [0m[1;36mCreated entity [[0m[1;36m44[0m[1;36m] named [[0m[1;36mur[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mbase_link_inertia_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mshoulder_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mupper_arm_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mforearm_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mwrist_1_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mwrist_2_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mwrist_3_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mwrist_3_link_fixed_joint_lump__robotiq_85_base_link_collision_1[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mrobotiq_85_left_inner_knuckle_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mrobotiq_85_left_knuckle_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mrobotiq_85_left_knuckle_link_fixed_joint_lump__robotiq_85_left_finger_link_collision_1[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mrobotiq_85_left_finger_tip_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mrobotiq_85_right_inner_knuckle_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mrobotiq_85_right_knuckle_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mrobotiq_85_right_knuckle_link_fixed_joint_lump__robotiq_85_right_finger_link_collision_1[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-1] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mrobotiq_85_right_finger_tip_link_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-1] [1;36m[Dbg] [Sensors.cc:953] [0m[1;36mInitialization needed[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [Sensors.cc:349] [0m[1;36mInitializing render context[0m[1;36m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mgz-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [INFO] [1770197705.943832148] [controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[gazebo-1] [INFO] [1770197705.943921473] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[gazebo-1] [INFO] [1770197705.953049174] [controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /home/beki/Vision-Based-Object-Detection-and-Sorting/comparison/Comp_perfect_RT_v1/ros2_ws/install/simpler_bringup/share/simpler_bringup/config/ur5e_robotiq_controllers.yaml -p use_sim_time:=true --param use_sim_time:=true 
+[gazebo-1] libEGL warning: pci id for fd 102: 10de:1f95, driver (null)
+[gazebo-1] 
+[gazebo-1] pci id for fd 105: 10de:1f95, driver (null)
+[gazebo-1] pci id for fd 106: 10de:1f95, driver (null)
+[gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[gazebo-1] libEGL warning: pci id for fd 102: 10de:1f95, driver (null)
+[gazebo-1] 
+[gazebo-1] pci id for fd 105: 10de:1f95, driver (null)
+[gazebo-1] pci id for fd 106: 10de:1f95, driver (null)
+[gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[gazebo-1] libEGL warning: pci id for fd 102: 10de:1f95, driver (null)
+[gazebo-1] 
+[INFO] [initial_detach.py-12]: process started with pid [646317]
+[gazebo-1] [1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/pick_place_world[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/pick_place_world[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/pick_place_world[0m[1;32m/[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/pick_place_world[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPublishing scene information on [[0m[1;32m/world/pick_place_world/scene/info[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPublishing entity deletions on [[0m[1;32m/world/pick_place_world/scene/deletion[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPublishing state changes on [[0m[1;32m/world/pick_place_world/state[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPublishing pose messages on [[0m[1;32m/world/pick_place_world[0m[1;32m/[0m[1;32mpose/info[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;32m[Msg] [0m[1;32mPublishing dynamic pose messages on [[0m[1;32m/world/pick_place_world[0m[1;32m/[0m[1;32mdynamic_pose/info[0m[1;32m][0m[1;32m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:560] [0m[1;36mExiting postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:560] [0m[1;36mExiting postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:560] [0m[1;36mExiting postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:533] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m5[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:343] [0m[1;36mAttaching entity: [0m[1;36m103[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:343] [0m[1;36mAttaching entity: [0m[1;36m104[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:343] [0m[1;36mAttaching entity: [0m[1;36m105[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [DetachableJoint.cc:343] [0m[1;36mAttaching entity: [0m[1;36m106[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [Physics.cc:1939] [0m[1;36mCreating detachable joint [[0m[1;36m103[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;32mMsg[0m [NameManager::issueNewName] (Skeleton::Joint | ur) The name [fixed] is a duplicate, so it has been renamed to [fixed(1)]
+[gazebo-1] [1;32mMsg[0m [NameManager::issueNewName] (Skeleton::N4dart8dynamics9ShapeNodeE | ur) The name [link:collision] is a duplicate, so it has been renamed to [link:collision(1)]
+[gazebo-1] [1;36m[Dbg] [Physics.cc:1939] [0m[1;36mCreating detachable joint [[0m[1;36m104[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;32mMsg[0m [NameManager::issueNewName] (Skeleton::Joint | ur) The name [fixed] is a duplicate, so it has been renamed to [fixed(2)]
+[gazebo-1] [1;32mMsg[0m [NameManager::issueNewName] (Skeleton::N4dart8dynamics9ShapeNodeE | ur) The name [link:collision] is a duplicate, so it has been renamed to [link:collision(2)]
+[gazebo-1] [1;36m[Dbg] [Physics.cc:1939] [0m[1;36mCreating detachable joint [[0m[1;36m105[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;32mMsg[0m [NameManager::issueNewName] (Skeleton::Joint | ur) The name [fixed] is a duplicate, so it has been renamed to [fixed(3)]
+[gazebo-1] [1;32mMsg[0m [NameManager::issueNewName] (Skeleton::N4dart8dynamics9ShapeNodeE | ur) The name [link:collision] is a duplicate, so it has been renamed to [link:collision(3)]
+[gazebo-1] [1;36m[Dbg] [Physics.cc:1939] [0m[1;36mCreating detachable joint [[0m[1;36m106[0m[1;36m][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [RenderUtil.cc:2646] [0m[1;36mCreate scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[spawner-9] [INFO] [1770197706.267755898] [spawner_joint_state_broadcaster]: Loaded joint_state_broadcaster
+[gazebo-1] [INFO] [1770197706.269586313] [controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[gazebo-1] [INFO] [1770197706.269881104] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[initial_detach.py-12] [INFO] [1770197706.632945387] [initial_detach]: ════════════════════════════════════════════════════════════
+[initial_detach.py-12] [INFO] [1770197706.633432306] [initial_detach]:   INITIAL DETACH - Releasing all 4 cubes from gripper
+[initial_detach.py-12] [INFO] [1770197706.633788695] [initial_detach]: ════════════════════════════════════════════════════════════
+[gazebo-1] [INFO] [1770197706.912345545] [controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[gazebo-1] [INFO] [1770197706.913596994] [controller_manager]: Successfully switched controllers!
+[spawner-9] [INFO] [1770197706.918709082] [spawner_joint_state_broadcaster]: Configured and activated joint_state_broadcaster
+[spawner-10] [INFO] [1770197707.050881338] [spawner_scaled_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [spawner-9]: process has finished cleanly [pid 646003]
+[initial_detach.py-12] [INFO] [1770197707.134777613] [initial_detach]:   Sending detach commands (attempt 1/5)...
+[initial_detach.py-12] [INFO] [1770197707.335765983] [initial_detach]:   Sending detach commands (attempt 2/5)...
+[gazebo-1] [INFO] [1770197707.303957517] [controller_manager]: Loading controller : 'scaled_joint_trajectory_controller' of type 'joint_trajectory_controller/JointTrajectoryController'
+[gazebo-1] [INFO] [1770197707.304027287] [controller_manager]: Loading controller 'scaled_joint_trajectory_controller'
+[gazebo-1] [INFO] [1770197707.308834876] [controller_manager]: Controller 'scaled_joint_trajectory_controller' node arguments: --ros-args --params-file /home/beki/Vision-Based-Object-Detection-and-Sorting/comparison/Comp_perfect_RT_v1/ros2_ws/install/simpler_bringup/share/simpler_bringup/config/ur5e_robotiq_controllers.yaml -p use_sim_time:=true --param use_sim_time:=true 
+[gazebo-1] [INFO] [1770197707.342965495] [controller_manager]: Configuring controller: 'scaled_joint_trajectory_controller'
+[gazebo-1] [INFO] [1770197707.343351217] [scaled_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gazebo-1] [INFO] [1770197707.343461004] [scaled_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gazebo-1] [INFO] [1770197707.343506190] [scaled_joint_trajectory_controller]: Using 'splines' interpolation method.
+[gazebo-1] [INFO] [1770197707.347710998] [scaled_joint_trajectory_controller]: Action status changes will be monitored at 20.00 Hz.
+[gazebo-1] [INFO] [1770197707.361861394] [controller_manager]: Activating controllers: [ scaled_joint_trajectory_controller ]
+[gazebo-1] [INFO] [1770197707.363506735] [controller_manager]: Successfully switched controllers!
+[INFO] [move_group-13]: process started with pid [646368]
+[spawner-10] [INFO] [1770197707.341339918] [spawner_scaled_joint_trajectory_controller]: Loaded scaled_joint_trajectory_controller
+[spawner-10] [INFO] [1770197707.366093858] [spawner_scaled_joint_trajectory_controller]: Configured and activated scaled_joint_trajectory_controller
+[spawner-11] [INFO] [1770197707.515041211] [spawner_gripper_forward_position_controller]: waiting for service /controller_manager/list_controllers to become available...
+[initial_detach.py-12] [INFO] [1770197707.536642191] [initial_detach]:   Sending detach commands (attempt 3/5)...
+[move_group-13] [INFO] [1770197707.554183490] [move_group.moveit.moveit.ros.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-13] [INFO] [1770197707.554379598] [move_group.moveit.moveit.core.robot_model]: Loading robot model 'ur'...
+[move_group-13] [INFO] [1770197707.554415844] [move_group.moveit.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [spawner-10]: process has finished cleanly [pid 646004]
+[move_group-13] [INFO] [1770197707.570309287] [move_group.moveit.moveit.kinematics.kdl_kinematics_plugin]: Joint weights for group 'ur_manipulator': 1 1 1 1 1 1
+[move_group-13] [INFO] [1770197707.628712793] [move_group.moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-13] [INFO] [1770197707.628948570] [move_group.moveit.moveit.ros.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-13] [INFO] [1770197707.630039109] [move_group.moveit.moveit.ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-13] [INFO] [1770197707.630817746] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-13] [INFO] [1770197707.630868938] [move_group.moveit.moveit.ros.planning_scene_monitor]: Stopping existing planning scene publisher.
+[move_group-13] [INFO] [1770197707.631055828] [move_group.moveit.moveit.ros.planning_scene_monitor]: Stopped publishing maintained planning scene.
+[move_group-13] [INFO] [1770197707.631602948] [move_group.moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-13] [INFO] [1770197707.631783692] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting planning scene monitor
+[move_group-13] [INFO] [1770197707.632936178] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-13] [INFO] [1770197707.632985275] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-13] [INFO] [1770197707.633605377] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-13] [INFO] [1770197707.634392814] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-13] [WARN] [1770197707.634798021] [move_group.moveit.moveit.ros.occupancy_map_monitor]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-13] [ERROR] [1770197707.634855848] [move_group.moveit.moveit.ros.occupancy_map_monitor]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-13] [INFO] [1770197707.653167821] [move_group.moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'OMPL'
+[move_group-13] [INFO] [1770197707.654609302] [move_group]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-13] [INFO] [1770197707.655775547] [move_group]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-13] [INFO] [1770197707.655828834] [move_group]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-13] [INFO] [1770197707.656072363] [move_group]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-13] [INFO] [1770197707.656090172] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-13] [INFO] [1770197707.656126419] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-13] [INFO] [1770197707.656139059] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-13] [INFO] [1770197707.656158126] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-13] [INFO] [1770197707.657833568] [move_group]: Try loading adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[move_group-13] [INFO] [1770197707.661114054] [move_group]: Loaded adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[move_group-13] [INFO] [1770197707.661161055] [move_group]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-13] [INFO] [1770197707.664508378] [move_group]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-13] [INFO] [1770197707.664561665] [move_group]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'
+[move_group-13] [INFO] [1770197707.665580409] [move_group]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'
+[move_group-13] [INFO] [1770197707.704567854] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for scaled_joint_trajectory_controller
+[move_group-13] [INFO] [1770197707.707177814] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for joint_trajectory_controller
+[move_group-13] [INFO] [1770197707.707456891] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-13] [INFO] [1770197707.707510318] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group-13] [INFO] [1770197707.708567265] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-13] [INFO] [1770197707.708625860] [move_group]: MoveGroup debug mode is ON
+[move_group-13] [INFO] [1770197707.733058958] [move_group.moveit.moveit.ros.move_group.executable]: 
+[move_group-13] 
+[move_group-13] ********************************************************
+[move_group-13] * MoveGroup using: 
+[move_group-13] *     - apply_planning_scene_service
+[move_group-13] *     - clear_octomap_service
+[move_group-13] *     - get_group_urdf
+[move_group-13] *     - load_geometry_from_file
+[move_group-13] *     - CartesianPathService
+[move_group-13] *     - execute_trajectory_action
+[move_group-13] *     - get_planning_scene_service
+[move_group-13] *     - kinematics_service
+[move_group-13] *     - move_action
+[move_group-13] *     - motion_plan_service
+[move_group-13] *     - query_planners_service
+[move_group-13] *     - state_validation_service
+[move_group-13] *     - save_geometry_to_file
+[move_group-13] ********************************************************
+[move_group-13] 
+[move_group-13] [INFO] [1770197707.733140950] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context using pipeline ompl
+[move_group-13] [INFO] [1770197707.733158060] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context initialization complete
+[move_group-13] [96mLoading 'move_group/ApplyPlanningSceneService'...[0m
+[move_group-13] [96mLoading 'move_group/ClearOctomapService'...[0m
+[move_group-13] [96mLoading 'move_group/GetUrdfService'...[0m
+[move_group-13] [96mLoading 'move_group/LoadGeometryFromFileService'...[0m
+[move_group-13] [96mLoading 'move_group/MoveGroupCartesianPathService'...[0m
+[move_group-13] [96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...[0m
+[move_group-13] [96mLoading 'move_group/MoveGroupGetPlanningSceneService'...[0m
+[move_group-13] [96mLoading 'move_group/MoveGroupKinematicsService'...[0m
+[move_group-13] [96mLoading 'move_group/MoveGroupMoveAction'...[0m
+[move_group-13] [96mLoading 'move_group/MoveGroupPlanService'...[0m
+[move_group-13] [96mLoading 'move_group/MoveGroupQueryPlannersService'...[0m
+[move_group-13] [96mLoading 'move_group/MoveGroupStateValidationService'...[0m
+[move_group-13] [96mLoading 'move_group/SaveGeometryToFileService'...[0m
+[move_group-13] 
+[move_group-13] [92mYou can start planning now![0m
+[move_group-13] 
+[initial_detach.py-12] [INFO] [1770197707.737468185] [initial_detach]:   Sending detach commands (attempt 4/5)...
+[gazebo-1] [INFO] [1770197707.767395742] [controller_manager]: Loading controller : 'gripper_forward_position_controller' of type 'forward_command_controller/ForwardCommandController'
+[gazebo-1] [INFO] [1770197707.767460483] [controller_manager]: Loading controller 'gripper_forward_position_controller'
+[gazebo-1] [INFO] [1770197707.770165285] [controller_manager]: Controller 'gripper_forward_position_controller' node arguments: --ros-args --params-file /home/beki/Vision-Based-Object-Detection-and-Sorting/comparison/Comp_perfect_RT_v1/ros2_ws/install/simpler_bringup/share/simpler_bringup/config/ur5e_robotiq_controllers.yaml -p use_sim_time:=true --param use_sim_time:=true 
+[spawner-11] [INFO] [1770197707.790392807] [spawner_gripper_forward_position_controller]: Loaded gripper_forward_position_controller
+[gazebo-1] [INFO] [1770197707.792190817] [controller_manager]: Configuring controller: 'gripper_forward_position_controller'
+[gazebo-1] [INFO] [1770197707.793834901] [gripper_forward_position_controller]: configure successful
+[gazebo-1] [INFO] [1770197707.796707527] [controller_manager]: Activating controllers: [ gripper_forward_position_controller ]
+[gazebo-1] [INFO] [1770197707.798051163] [gripper_forward_position_controller]: activate successful
+[gazebo-1] [INFO] [1770197707.798151242] [controller_manager]: Successfully switched controllers!
+[spawner-11] [INFO] [1770197707.801976055] [spawner_gripper_forward_position_controller]: Configured and activated gripper_forward_position_controller
+[initial_detach.py-12] [INFO] [1770197707.938277907] [initial_detach]:   Sending detach commands (attempt 5/5)...
+[INFO] [spawner-11]: process has finished cleanly [pid 646005]
+[initial_detach.py-12] [INFO] [1770197708.139131914] [initial_detach]: ════════════════════════════════════════════════════════════
+[initial_detach.py-12] [INFO] [1770197708.139737420] [initial_detach]:   ✓ Detach commands sent for all 4 cubes
+[initial_detach.py-12] [INFO] [1770197708.140364925] [initial_detach]:     - big_green_cube
+[initial_detach.py-12] [INFO] [1770197708.140982373] [initial_detach]:     - green_cube (small)
+[initial_detach.py-12] [INFO] [1770197708.141601986] [initial_detach]:     - big_red_cube
+[initial_detach.py-12] [INFO] [1770197708.142268741] [initial_detach]:     - red_cube (small)
+[initial_detach.py-12] [INFO] [1770197708.142894989] [initial_detach]: ════════════════════════════════════════════════════════════
+[gazebo-1] [1;36m[Dbg] [Sensors.cc:391] [0m[1;36mRendering Thread initialized[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [Sensors.cc:953] [0m[1;36mInitialization needed[0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [RgbdCameraSensor.cc:210] [0m[1;36mRGB images for [[0m[1;36moverhead_camera::camera_link::rgbd_camera[0m[1;36m] advertised on [[0m[1;36mcamera[0m[1;36m/image][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [RgbdCameraSensor.cc:224] [0m[1;36mDepth images for [[0m[1;36moverhead_camera::camera_link::rgbd_camera[0m[1;36m] advertised on [[0m[1;36mcamera[0m[1;36m/depth_image][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [RgbdCameraSensor.cc:238] [0m[1;36mPoints for [[0m[1;36moverhead_camera::camera_link::rgbd_camera[0m[1;36m] advertised on [[0m[1;36mcamera[0m[1;36m/points][0m[1;36m[0m
+[gazebo-1] [1;36m[Dbg] [CameraSensor.cc:695] [0m[1;36mCamera info for [[0m[1;36moverhead_camera::camera_link::rgbd_camera[0m[1;36m] advertised on [[0m[1;36mcamera/camera_info[0m[1;36m][0m[1;36m[0m
+[INFO] [vision_node.py-14]: process started with pid [646410]
+[INFO] [initial_detach.py-12]: process has finished cleanly [pid 646317]
+[move_group-13] [WARN] [1770197710.721658363] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[INFO] [pose_logger.py-15]: process started with pid [646426]
+[move_group-13] [WARN] [1770197711.736116149] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197711.753136101] [pose_logger]: ══════════════════════════════════════════════════════════════════════
+[pose_logger.py-15] [INFO] [1770197711.753784349] [pose_logger]:   POSE LOGGER - Tracking 4 Cube Positions (Size V1)
+[pose_logger.py-15] [INFO] [1770197711.754366459] [pose_logger]:   Expected positions (world coordinates):
+[pose_logger.py-15] [INFO] [1770197711.754996827] [pose_logger]:     big_green_cube:   (0.25, -0.35, 0.80) - Priority 1
+[pose_logger.py-15] [INFO] [1770197711.755624402] [pose_logger]:     green_cube:       (0.55, -0.35, 0.77) - Priority 2
+[pose_logger.py-15] [INFO] [1770197711.756252955] [pose_logger]:     big_red_cube:     (0.25, -0.65, 0.80) - Priority 3
+[pose_logger.py-15] [INFO] [1770197711.756900364] [pose_logger]:     red_cube:         (0.55, -0.65, 0.77) - Priority 4
+[pose_logger.py-15] [INFO] [1770197711.757555107] [pose_logger]:   Table surface at z=0.74
+[pose_logger.py-15] [INFO] [1770197711.758189526] [pose_logger]: ══════════════════════════════════════════════════════════════════════
+[pose_logger.py-15] [INFO] [1770197711.942694562] [pose_logger]: [T=004.3s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197712.150964629] [pose_logger]: [T=004.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197712.750626090] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197712.931393343] [pose_logger]: [T=005.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[INFO] [scene_manager.py-16]: process started with pid [646480]
+[pose_logger.py-15] [INFO] [1770197713.529380927] [pose_logger]: [T=005.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197713.768469303] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[scene_manager.py-16] [INFO] [1770197713.993387864] [scene_manager]: Scene Manager (Size Sorting V1) starting...
+[scene_manager.py-16] [INFO] [1770197713.994051616] [scene_manager]: Waiting for vision detections on /detected_cubes...
+[scene_manager.py-16] [INFO] [1770197713.994620736] [scene_manager]: Priority order: big_green -> small_green -> big_red -> small_red
+[vision_node.py-14] [INFO] [1770197714.093052048] [vision_node]: Camera intrinsics: fx=554.38, fy=554.38, cx=320.0, cy=240.0
+[vision_node.py-14] [INFO] [1770197714.093722015] [vision_node]: Loading custom RT-DETR model: /home/beki/Vision-Based-Object-Detection-and-Sorting/rt_detr/cube_detector_rtdetr_best.pt
+[scene_manager.py-16] [INFO] [1770197714.247165674] [scene_manager]: Still waiting for vision detections...
+[pose_logger.py-15] [INFO] [1770197714.351536323] [pose_logger]: [T=006.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197714.476503462] [vision_node]: Custom RT-DETR cube detector loaded successfully
+[vision_node.py-14] [INFO] [1770197714.477023904] [vision_node]:   Classes: red cube, green cube, blue cube
+[vision_node.py-14] [INFO] [1770197714.490633890] [vision_node]: OpenCV window disabled (set SHOW_CV_WINDOW=1 to enable)
+[vision_node.py-14] [INFO] [1770197714.491467281] [vision_node]: Visualization topics:
+[vision_node.py-14] [INFO] [1770197714.492266102] [vision_node]:   /vision/raw_image       - Raw camera feed
+[vision_node.py-14] [INFO] [1770197714.493712402] [vision_node]:   /vision/annotated_image - With RT-DETR detections
+[vision_node.py-14] [INFO] [1770197714.494892336] [vision_node]: Vision Node initialized (RT-DETR - with benchmarking)
+[vision_node.py-14] [INFO] [1770197714.495720280] [vision_node]: Waiting for camera images...
+[vision_node.py-14] [INFO] [1770197714.497556143] [vision_node]: Camera intrinsics: fx=554.4, fy=554.4, cx=320.0, cy=240.0
+[move_group-13] [WARN] [1770197714.790917631] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197714.887846423] [pose_logger]: [T=006.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197715.460748382] [pose_logger]: [T=007.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197715.811534830] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197716.213701998] [pose_logger]: [T=007.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[scene_manager.py-16] [INFO] [1770197716.579320150] [scene_manager]: Still waiting for vision detections...
+[pose_logger.py-15] [INFO] [1770197716.767200984] [pose_logger]: [T=008.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197716.826549025] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197717.317727560] [pose_logger]: [T=008.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197717.611258036] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[vision_node.py-14] [INFO] [1770197717.702448993] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[vision_node.py-14] [INFO] [1770197717.846432326] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197717.856242362] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197717.985223740] [pose_logger]: [T=009.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197718.621603927] [pose_logger]: [T=009.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197718.863317764] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[scene_manager.py-16] [INFO] [1770197718.962786280] [scene_manager]: ════════════════════════════════════════════════════════════
+[scene_manager.py-16] [INFO] [1770197718.963378168] [scene_manager]:    Scene Manager Ready (Size-Based Sorting)
+[scene_manager.py-16] [INFO] [1770197718.963933320] [scene_manager]: ════════════════════════════════════════════════════════════
+[scene_manager.py-16] [INFO] [1770197718.964716567] [scene_manager]:    Detected 4 cube(s)
+[scene_manager.py-16] [INFO] [1770197718.965505261] [scene_manager]:    Priority Order:
+[scene_manager.py-16] [INFO] [1770197718.966193736] [scene_manager]:    1. BIG GREEN: pick (0.248, 0.273) → place (0.700, -0.400)
+[scene_manager.py-16] [INFO] [1770197718.966889754] [scene_manager]:    2. SMALL GREEN: pick (0.550, 0.221) → place (0.850, -0.400)
+[scene_manager.py-16] [INFO] [1770197718.967592406] [scene_manager]:    3. BIG RED: pick (0.250, 0.059) → place (0.350, -0.400)
+[scene_manager.py-16] [INFO] [1770197718.968226965] [scene_manager]:    4. SMALL RED: pick (0.442, 0.221) → place (0.200, -0.400)
+[scene_manager.py-16] [INFO] [1770197718.969005533] [scene_manager]: ════════════════════════════════════════════════════════════
+[vision_node.py-14] [INFO] [1770197719.039076068] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[vision_node.py-14] [INFO] [1770197719.042315630] [vision_node]: ============================================================
+[vision_node.py-14] [INFO] [1770197719.042967509] [vision_node]: RT-DETR PERFORMANCE METRICS
+[vision_node.py-14] [INFO] [1770197719.043684200] [vision_node]:   Frames processed: 4
+[vision_node.py-14] [INFO] [1770197719.044380217] [vision_node]:   Average inference time: 650.05 ms
+[vision_node.py-14] [INFO] [1770197719.045116113] [vision_node]:   Min/Max inference time: 75.50 / 2359.84 ms
+[vision_node.py-14] [INFO] [1770197719.045871634] [vision_node]:   Std deviation: 1139.87 ms
+[vision_node.py-14] [INFO] [1770197719.046632742] [vision_node]:   Total detections: 24
+[vision_node.py-14] [INFO] [1770197719.047340702] [vision_node]:   Successful frames (>0 detections): 4
+[vision_node.py-14] [INFO] [1770197719.048123251] [vision_node]: ============================================================
+[pose_logger.py-15] [INFO] [1770197719.152867917] [pose_logger]: [T=010.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197719.701959019] [pose_logger]: [T=010.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197719.876770869] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197720.134083109] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197720.265866598] [pose_logger]: [T=011.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197720.894417247] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197720.953521002] [pose_logger]: [T=011.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197721.409378177] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197721.522992087] [pose_logger]: [T=012.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197721.902554578] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197722.075722924] [pose_logger]: [T=012.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197722.640619922] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197722.793639862] [pose_logger]: [T=013.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197722.906964225] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197723.671176723] [pose_logger]: [T=013.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197723.924435191] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197724.008854076] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197724.139123269] [pose_logger]: [T=014.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197724.707396356] [pose_logger]: [T=014.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197724.937918252] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197725.266746026] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197725.404221379] [pose_logger]: [T=015.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197725.945663792] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197726.027649697] [pose_logger]: [T=015.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197726.467432234] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197726.595039727] [pose_logger]: [T=016.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197726.962312495] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197727.313356593] [pose_logger]: [T=016.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197727.760691291] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197727.899652489] [pose_logger]: [T=017.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197727.977864008] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197728.431551866] [pose_logger]: [T=017.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197728.872971761] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197728.986790343] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197729.001246232] [pose_logger]: [T=018.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197729.551093147] [pose_logger]: [T=018.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197729.971975712] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197729.997085232] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197730.098345538] [pose_logger]: [T=019.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197730.628905320] [pose_logger]: [T=019.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197731.005846924] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197731.064781842] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[vision_node.py-14] [INFO] [1770197731.067876211] [vision_node]: ============================================================
+[vision_node.py-14] [INFO] [1770197731.068476270] [vision_node]: RT-DETR PERFORMANCE METRICS
+[vision_node.py-14] [INFO] [1770197731.069107547] [vision_node]:   Frames processed: 14
+[vision_node.py-14] [INFO] [1770197731.069777655] [vision_node]:   Average inference time: 240.74 ms
+[vision_node.py-14] [INFO] [1770197731.070464734] [vision_node]:   Min/Max inference time: 68.52 / 2359.84 ms
+[vision_node.py-14] [INFO] [1770197731.071141895] [vision_node]:   Std deviation: 610.00 ms
+[vision_node.py-14] [INFO] [1770197731.071848948] [vision_node]:   Total detections: 84
+[vision_node.py-14] [INFO] [1770197731.072567245] [vision_node]:   Successful frames (>0 detections): 14
+[vision_node.py-14] [INFO] [1770197731.073292596] [vision_node]: ============================================================
+[pose_logger.py-15] [INFO] [1770197731.180213031] [pose_logger]: [T=020.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197731.786234874] [pose_logger]: [T=020.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197732.020214389] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197732.463708253] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197732.682026391] [pose_logger]: [T=021.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197733.040627823] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197733.173032833] [pose_logger]: [T=021.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197733.618067305] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197733.735564282] [pose_logger]: [T=022.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197734.050313370] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197734.342045888] [pose_logger]: [T=022.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197734.728964461] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197734.841021942] [pose_logger]: [T=023.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197735.059392974] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197735.369570692] [pose_logger]: [T=023.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197735.796722861] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197735.931944712] [pose_logger]: [T=024.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197736.068774477] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197736.498172211] [pose_logger]: [T=024.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197736.922629723] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197737.050113739] [pose_logger]: [T=025.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197737.078084656] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197737.578769755] [pose_logger]: [T=025.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197738.033055095] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197738.087902620] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197738.218181616] [pose_logger]: [T=026.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197738.894967790] [pose_logger]: [T=026.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197739.101061540] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197739.360937424] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197739.483159835] [pose_logger]: [T=027.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197740.012132767] [pose_logger]: [T=027.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197740.111428755] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197740.430261040] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197740.561038003] [pose_logger]: [T=028.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197741.117870077] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197741.126048819] [pose_logger]: [T=028.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197741.543120374] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197741.675935326] [pose_logger]: [T=029.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197742.125841629] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197742.230465530] [pose_logger]: [T=029.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197742.778361644] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[vision_node.py-14] [INFO] [1770197742.784452890] [vision_node]: ============================================================
+[vision_node.py-14] [INFO] [1770197742.785334960] [vision_node]: RT-DETR PERFORMANCE METRICS
+[vision_node.py-14] [INFO] [1770197742.786148588] [vision_node]:   Frames processed: 24
+[vision_node.py-14] [INFO] [1770197742.787062505] [vision_node]:   Average inference time: 172.72 ms
+[vision_node.py-14] [INFO] [1770197742.788793543] [vision_node]:   Min/Max inference time: 64.45 / 2359.84 ms
+[vision_node.py-14] [INFO] [1770197742.790690867] [vision_node]:   Std deviation: 465.97 ms
+[vision_node.py-14] [INFO] [1770197742.792210361] [vision_node]:   Total detections: 144
+[vision_node.py-14] [INFO] [1770197742.793850118] [vision_node]:   Successful frames (>0 detections): 24
+[vision_node.py-14] [INFO] [1770197742.794906089] [vision_node]: ============================================================
+[pose_logger.py-15] [INFO] [1770197742.913527813] [pose_logger]: [T=030.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197743.148973394] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197743.513991446] [pose_logger]: [T=030.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197743.941204341] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197744.064673342] [pose_logger]: [T=031.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197744.158341908] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197744.630296827] [pose_logger]: [T=031.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197745.116083290] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197745.177054906] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197745.263150309] [pose_logger]: [T=032.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197745.899545293] [pose_logger]: [T=032.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197746.188545452] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197746.322037389] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197746.448987338] [pose_logger]: [T=033.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197746.997928849] [pose_logger]: [T=033.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197747.196746967] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197747.423874178] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197747.543432059] [pose_logger]: [T=034.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197748.159645853] [pose_logger]: [T=034.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197748.215417380] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197748.708131579] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197748.815844365] [pose_logger]: [T=035.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197749.224524117] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197749.343272292] [pose_logger]: [T=035.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197749.807120870] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197749.912113768] [pose_logger]: [T=036.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197750.234489300] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197750.460174084] [pose_logger]: [T=036.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197750.874977449] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197750.990425512] [pose_logger]: [T=037.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197751.244333852] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197751.535267313] [pose_logger]: [T=037.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197751.959637501] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197752.079273281] [pose_logger]: [T=038.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197752.254199897] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197752.630371179] [pose_logger]: [T=038.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197753.160599342] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197753.271385017] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197753.295099108] [pose_logger]: [T=039.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197753.898856604] [pose_logger]: [T=039.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197754.283187111] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197754.379491741] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[vision_node.py-14] [INFO] [1770197754.383060113] [vision_node]: ============================================================
+[vision_node.py-14] [INFO] [1770197754.383692717] [vision_node]: RT-DETR PERFORMANCE METRICS
+[vision_node.py-14] [INFO] [1770197754.384340478] [vision_node]:   Frames processed: 34
+[vision_node.py-14] [INFO] [1770197754.384992428] [vision_node]:   Average inference time: 145.92 ms
+[vision_node.py-14] [INFO] [1770197754.385710237] [vision_node]:   Min/Max inference time: 64.45 / 2359.84 ms
+[vision_node.py-14] [INFO] [1770197754.386467295] [vision_node]:   Std deviation: 391.36 ms
+[vision_node.py-14] [INFO] [1770197754.387137823] [vision_node]:   Total detections: 204
+[vision_node.py-14] [INFO] [1770197754.387833982] [vision_node]:   Successful frames (>0 detections): 34
+[vision_node.py-14] [INFO] [1770197754.388609548] [vision_node]: ============================================================
+[pose_logger.py-15] [INFO] [1770197754.514999366] [pose_logger]: [T=040.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197755.208226843] [pose_logger]: [T=040.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197755.300282171] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197755.636539967] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197755.780665636] [pose_logger]: [T=041.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197756.322197806] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197756.513074790] [pose_logger]: [T=041.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197756.961321067] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197757.150827391] [pose_logger]: [T=042.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197757.345622163] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197757.898719350] [pose_logger]: [T=042.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197758.364925769] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197758.462692855] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197758.588822197] [pose_logger]: [T=043.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197759.227661915] [pose_logger]: [T=043.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197759.382104704] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197759.669607910] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197759.806306959] [pose_logger]: [T=044.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197760.400990634] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197760.535940702] [pose_logger]: [T=044.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197760.981930419] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197761.108932213] [pose_logger]: [T=045.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197761.410475328] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197761.707724717] [pose_logger]: [T=045.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197762.369673899] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197762.430858227] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197762.529257728] [pose_logger]: [T=046.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197763.150521231] [pose_logger]: [T=046.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197763.446249618] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197763.794365926] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197763.964187518] [pose_logger]: [T=047.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197764.470556406] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197764.737710022] [pose_logger]: [T=047.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197765.351032996] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197765.498000921] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197765.498522411] [pose_logger]: [T=048.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197766.165214227] [pose_logger]: [T=048.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197766.528602297] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197766.810160873] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197766.951123803] [pose_logger]: [T=049.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197767.540867461] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197767.751521809] [pose_logger]: [T=049.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197768.286570337] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[vision_node.py-14] [INFO] [1770197768.291004371] [vision_node]: ============================================================
+[vision_node.py-14] [INFO] [1770197768.291891192] [vision_node]: RT-DETR PERFORMANCE METRICS
+[vision_node.py-14] [INFO] [1770197768.292875159] [vision_node]:   Frames processed: 44
+[vision_node.py-14] [INFO] [1770197768.293509091] [vision_node]:   Average inference time: 131.23 ms
+[vision_node.py-14] [INFO] [1770197768.294189397] [vision_node]:   Min/Max inference time: 64.45 / 2359.84 ms
+[vision_node.py-14] [INFO] [1770197768.294837437] [vision_node]:   Std deviation: 343.95 ms
+[vision_node.py-14] [INFO] [1770197768.295529964] [vision_node]:   Total detections: 264
+[vision_node.py-14] [INFO] [1770197768.296272986] [vision_node]:   Successful frames (>0 detections): 44
+[vision_node.py-14] [INFO] [1770197768.297047086] [vision_node]: ============================================================
+[pose_logger.py-15] [INFO] [1770197768.441697201] [pose_logger]: [T=050.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197768.557802137] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197769.211137616] [pose_logger]: [T=050.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197769.580244958] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197769.750695433] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197769.906887985] [pose_logger]: [T=051.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197770.609960207] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197770.699870835] [pose_logger]: [T=051.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197771.227941015] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197771.390929725] [pose_logger]: [T=052.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197771.626295813] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197772.214181939] [pose_logger]: [T=052.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197772.644189097] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197772.695964199] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197772.837758609] [pose_logger]: [T=053.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197773.622397367] [pose_logger]: [T=053.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197773.670477967] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197774.186107236] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197774.325344559] [pose_logger]: [T=054.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197774.696621901] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197775.117138767] [pose_logger]: [T=054.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197775.690244948] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197775.717546158] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197775.827174294] [pose_logger]: [T=055.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197776.655127858] [pose_logger]: [T=055.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197776.735466600] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197777.162437579] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197777.341697178] [pose_logger]: [T=056.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197777.764745847] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197778.146842635] [pose_logger]: [T=056.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197778.712870043] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197778.789544875] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197778.885796680] [pose_logger]: [T=057.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197779.615885825] [pose_logger]: [T=057.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197779.808687867] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197780.280033706] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197780.434535667] [pose_logger]: [T=058.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197780.828244078] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197781.096762986] [pose_logger]: [T=058.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197781.765175174] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197781.859332018] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197781.905574881] [pose_logger]: [T=059.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197782.616231863] [pose_logger]: [T=059.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197782.859926987] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197783.254025921] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[vision_node.py-14] [INFO] [1770197783.257923800] [vision_node]: ============================================================
+[vision_node.py-14] [INFO] [1770197783.259053593] [vision_node]: RT-DETR PERFORMANCE METRICS
+[vision_node.py-14] [INFO] [1770197783.259833909] [vision_node]:   Frames processed: 54
+[vision_node.py-14] [INFO] [1770197783.260762006] [vision_node]:   Average inference time: 122.50 ms
+[vision_node.py-14] [INFO] [1770197783.261550423] [vision_node]:   Min/Max inference time: 64.45 / 2359.84 ms
+[vision_node.py-14] [INFO] [1770197783.262306575] [vision_node]:   Std deviation: 310.38 ms
+[vision_node.py-14] [INFO] [1770197783.263107564] [vision_node]:   Total detections: 324
+[vision_node.py-14] [INFO] [1770197783.263916654] [vision_node]:   Successful frames (>0 detections): 54
+[vision_node.py-14] [INFO] [1770197783.264494086] [vision_node]: ============================================================
+[pose_logger.py-15] [INFO] [1770197783.382766782] [pose_logger]: [T=060.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197783.885882595] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197784.232048354] [pose_logger]: [T=060.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197784.712298264] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197784.862291279] [pose_logger]: [T=061.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197784.906369404] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197785.796566279] [pose_logger]: [T=061.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197785.925667595] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197786.187362836] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197786.440923181] [pose_logger]: [T=062.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197786.931446381] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197787.155119842] [pose_logger]: [T=062.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[vision_node.py-14] [INFO] [1770197787.731803596] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[move_group-13] [WARN] [1770197787.936534921] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[pose_logger.py-15] [INFO] [1770197787.943285813] [pose_logger]: [T=063.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[pose_logger.py-15] [INFO] [1770197788.609929255] [pose_logger]: [T=063.5s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]
+[move_group-13] [WARN] [1770197788.960995510] [move_group.moveit.moveit.ros.planning_scene_monitor]: The complete state of the robot is not yet known.  Missing robotiq_85_left_inner_knuckle_joint, robotiq_85_left_finger_tip_joint, robotiq_85_right_inner_knuckle_joint, robotiq_85_right_knuckle_joint, robotiq_85_right_finger_tip_joint
+[vision_node.py-14] [INFO] [1770197789.276307183] [vision_node]: Detected 4 cube(s): big green at (0.25, 0.27), big red at (0.25, 0.06), small green at (0.55, 0.22), small red at (0.44, 0.22)
+[pose_logger.py-15] [INFO] [1770197789.421451138] [pose_logger]: [T=064.0s] CUBE POSITIONS:
+[pose_logger.py-15]   BIG_GREEN : world=( 0.250, -0.250,  0.800) robot=( 0.250,  0.250) [OK]
+[pose_logger.py-15]   GREEN     : world=( 0.550, -0.250,  0.770) robot=( 0.550,  0.250) [OK]
+[pose_logger.py-15]   BIG_RED   : world=( 0.250, -0.450,  0.800) robot=( 0.250,  0.050) [OK]
+[pose_logger.py-15]   RED       : world=( 0.550, -0.450,  0.770) robot=( 0.550,  0.050) [OK]

@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="pick_place_world">
+
+    <!-- Physics -->
+    <physics name="default_physics" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <!-- Plugins -->
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="gz-sim-contact-system" name="gz::sim::systems::Contact"/>
+
+    <!-- Scene -->
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.8 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <!-- Light -->
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- Ground Plane -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>10 10</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>10 10</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Modern Table (from original project) -->
+    <!-- Table surface is at z=0.74m, table is 2.35m x 1m -->
+    <include>
+      <uri>model://modern_table</uri>
+      <name>modern_table</name>
+      <pose>0.4 -0.5 0 0 0 0</pose>
+    </include>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════ -->
+    <!-- CUBES: 4 cubes for size-based sorting                                   -->
+    <!-- Big cubes: 12cm, Small cubes: 6cm                                       -->
+    <!-- Layout on table - PICK AREA (front of table, away from place markers):  -->
+    <!--   Big green:   (0.25, -0.25) -> robot (0.25, 0.25)                      -->
+    <!--   Small green: (0.55, -0.25) -> robot (0.55, 0.25)                      -->
+    <!--   Big red:     (0.25, -0.45) -> robot (0.25, 0.05)                      -->
+    <!--   Small red:   (0.55, -0.45) -> robot (0.55, 0.05)                      -->
+    <!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+    <!-- Big Green Cube (12cm) - Priority 1 -->
+    <!-- Z = table(0.74) + half_cube(0.06) = 0.80 -->
+    <include>
+      <uri>model://big_green_cube</uri>
+      <name>big_green_cube</name>
+      <pose>0.25 -0.25 0.80 0 0 0</pose>
+    </include>
+
+    <!-- Small Green Cube (6cm) - Priority 2 -->
+    <!-- Z = table(0.74) + half_cube(0.03) = 0.77 -->
+    <include>
+      <uri>model://green_cube</uri>
+      <name>green_cube</name>
+      <pose>0.55 -0.25 0.77 0 0 0</pose>
+    </include>
+
+    <!-- Big Red Cube (12cm) - Priority 3 -->
+    <!-- Z = table(0.74) + half_cube(0.06) = 0.80 -->
+    <include>
+      <uri>model://big_red_cube</uri>
+      <name>big_red_cube</name>
+      <pose>0.25 -0.45 0.80 0 0 0</pose>
+    </include>
+
+    <!-- Small Red Cube (6cm) - Priority 4 -->
+    <!-- Z = table(0.74) + half_cube(0.03) = 0.77 -->
+    <include>
+      <uri>model://red_cube</uri>
+      <name>red_cube</name>
+      <pose>0.55 -0.45 0.77 0 0 0</pose>
+    </include>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════ -->
+    <!-- PLACE MARKERS: 2 markers (green and red) - PLACE AREA (back of table)  -->
+    <!-- Each marker will receive 2 cubes (big and small) side by side           -->
+    <!-- Place area is at world Y = -0.90 (robot Y = -0.40), well separated      -->
+    <!-- from pick area at world Y = -0.25 to -0.45                               -->
+    <!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+    <!-- Red Target Patch - Place Location Marker -->
+    <!-- Robot place positions: big_red (0.35, -0.40), small_red (0.20, -0.40) -->
+    <model name="red_place_marker">
+      <static>true</static>
+      <pose>0.275 -0.90 0.741 0 0 0</pose>
+      <link name="marker_link">
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.20</radius>
+              <length>0.002</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.9 0.2 0.2 1</ambient>
+            <diffuse>0.9 0.2 0.2 1</diffuse>
+            <specular>0.3 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Green Target Patch - Place Location Marker for green cubes -->
+    <!-- Robot place positions: big_green (0.70, -0.40), small_green (0.85, -0.40) -->
+    <model name="green_place_marker">
+      <static>true</static>
+      <pose>0.775 -0.90 0.741 0 0 0</pose>
+      <link name="marker_link">
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>0.20</radius>
+              <length>0.002</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.2 0.9 0.2 1</ambient>
+            <diffuse>0.2 0.9 0.2 1</diffuse>
+            <specular>0.1 0.3 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════ -->
+    <!-- RGBD Camera for Vision-Based Object Detection                          -->
+    <!-- Positioned above the table looking down at the workspace               -->
+    <!-- Camera is at (0.4, -0.5, 1.5) - directly above table center            -->
+    <!-- Orientation: pitch down 90 degrees to look at table                    -->
+    <!-- ═══════════════════════════════════════════════════════════════════════ -->
+    <model name="overhead_camera">
+      <static>true</static>
+      <!-- Position: above table center, 1.5m height -->
+      <!-- Orientation: roll=0, pitch=1.5708 (90 deg down), yaw=0 -->
+      <pose>0.4 -0.5 1.5 0 1.5708 0</pose>
+      <link name="camera_link">
+        <visual name="camera_visual">
+          <geometry>
+            <box>
+              <size>0.05 0.1 0.05</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.2 0.2 0.2 1</diffuse>
+          </material>
+        </visual>
+        <sensor name="rgbd_camera" type="rgbd_camera">
+          <camera>
+            <horizontal_fov>1.047</horizontal_fov>
+            <image>
+              <width>640</width>
+              <height>480</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <near>0.1</near>
+              <far>10.0</far>
+            </clip>
+            <depth_camera>
+              <clip>
+                <near>0.1</near>
+                <far>10.0</far>
+              </clip>
+            </depth_camera>
+          </camera>
+          <always_on>1</always_on>
+          <update_rate>10</update_rate>
+          <visualize>true</visualize>
+          <topic>camera</topic>
+        </sensor>
+      </link>
+    </model>
+
+  </world>
+</sdf>

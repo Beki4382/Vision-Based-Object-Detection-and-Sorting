@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SRDF for UR5e + Robotiq 2F-85 Gripper
+  Includes collision exclusions for gripper self-collisions
+-->
+<robot name="ur">
+  <!-- UR Manipulator Group -->
+  <group name="ur_manipulator">
+    <chain base_link="base_link" tip_link="tool0" />
+  </group>
+
+  <!-- Group States -->
+  <group_state name="home" group="ur_manipulator">
+    <joint name="elbow_joint" value="0" />
+    <joint name="shoulder_lift_joint" value="-1.5707" />
+    <joint name="shoulder_pan_joint" value="0" />
+    <joint name="wrist_1_joint" value="-1.5707" />
+    <joint name="wrist_2_joint" value="0" />
+    <joint name="wrist_3_joint" value="0" />
+  </group_state>
+
+  <group_state name="up" group="ur_manipulator">
+    <joint name="elbow_joint" value="0" />
+    <joint name="shoulder_lift_joint" value="-1.5707" />
+    <joint name="shoulder_pan_joint" value="0" />
+    <joint name="wrist_1_joint" value="-1.5707" />
+    <joint name="wrist_2_joint" value="0" />
+    <joint name="wrist_3_joint" value="0" />
+  </group_state>
+
+  <!-- UR Arm collision exclusions (from ur_moveit_config) -->
+  <disable_collisions link1="base_link" link2="base_link_inertia" reason="Adjacent" />
+  <disable_collisions link1="base_link_inertia" link2="shoulder_link" reason="Adjacent" />
+  <disable_collisions link1="tool0" link2="wrist_1_link" reason="Never" />
+  <disable_collisions link1="tool0" link2="wrist_2_link" reason="Never" />
+  <disable_collisions link1="tool0" link2="wrist_3_link" reason="Adjacent" />
+  <disable_collisions link1="forearm_link" link2="upper_arm_link" reason="Adjacent" />
+  <disable_collisions link1="forearm_link" link2="wrist_1_link" reason="Adjacent" />
+  <disable_collisions link1="shoulder_link" link2="upper_arm_link" reason="Adjacent" />
+  <disable_collisions link1="wrist_1_link" link2="wrist_2_link" reason="Adjacent" />
+  <disable_collisions link1="wrist_1_link" link2="wrist_3_link" reason="Never" />
+  <disable_collisions link1="wrist_2_link" link2="wrist_3_link" reason="Adjacent" />
+
+  <!-- Robotiq gripper collision exclusions -->
+  <!-- Base to knuckles -->
+  <disable_collisions link1="robotiq_85_base_link" link2="robotiq_85_left_knuckle_link" reason="Adjacent" />
+  <disable_collisions link1="robotiq_85_base_link" link2="robotiq_85_right_knuckle_link" reason="Adjacent" />
+  <disable_collisions link1="robotiq_85_base_link" link2="robotiq_85_left_inner_knuckle_link" reason="Adjacent" />
+  <disable_collisions link1="robotiq_85_base_link" link2="robotiq_85_right_inner_knuckle_link" reason="Adjacent" />
+  
+  <!-- Base to wrist -->
+  <disable_collisions link1="robotiq_85_base_link" link2="wrist_3_link" reason="Adjacent" />
+  <disable_collisions link1="robotiq_85_base_link" link2="tool0" reason="Adjacent" />
+
+  <!-- Left finger chain -->
+  <disable_collisions link1="robotiq_85_left_knuckle_link" link2="robotiq_85_left_finger_link" reason="Adjacent" />
+  <disable_collisions link1="robotiq_85_left_finger_link" link2="robotiq_85_left_finger_tip_link" reason="Adjacent" />
+  <disable_collisions link1="robotiq_85_left_inner_knuckle_link" link2="robotiq_85_left_finger_tip_link" reason="Adjacent" />
+  <disable_collisions link1="robotiq_85_left_knuckle_link" link2="robotiq_85_left_inner_knuckle_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_left_finger_link" link2="robotiq_85_left_inner_knuckle_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_left_knuckle_link" link2="robotiq_85_left_finger_tip_link" reason="Never" />
+
+  <!-- Right finger chain -->
+  <disable_collisions link1="robotiq_85_right_knuckle_link" link2="robotiq_85_right_finger_link" reason="Adjacent" />
+  <disable_collisions link1="robotiq_85_right_finger_link" link2="robotiq_85_right_finger_tip_link" reason="Adjacent" />
+  <disable_collisions link1="robotiq_85_right_inner_knuckle_link" link2="robotiq_85_right_finger_tip_link" reason="Adjacent" />
+  <disable_collisions link1="robotiq_85_right_knuckle_link" link2="robotiq_85_right_inner_knuckle_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_right_finger_link" link2="robotiq_85_right_inner_knuckle_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_right_knuckle_link" link2="robotiq_85_right_finger_tip_link" reason="Never" />
+
+  <!-- Cross-finger (left/right never collide) -->
+  <disable_collisions link1="robotiq_85_left_knuckle_link" link2="robotiq_85_right_knuckle_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_left_finger_link" link2="robotiq_85_right_finger_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_left_finger_tip_link" link2="robotiq_85_right_finger_tip_link" reason="Default" />
+  <disable_collisions link1="robotiq_85_left_inner_knuckle_link" link2="robotiq_85_right_inner_knuckle_link" reason="Never" />
+
+  <!-- Gripper to UR wrist links -->
+  <disable_collisions link1="robotiq_85_left_knuckle_link" link2="wrist_3_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_right_knuckle_link" link2="wrist_3_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_left_inner_knuckle_link" link2="wrist_3_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_right_inner_knuckle_link" link2="wrist_3_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_left_finger_link" link2="wrist_3_link" reason="Never" />
+  <disable_collisions link1="robotiq_85_right_finger_link" link2="wrist_3_link" reason="Never" />
+
+  <!-- Gripper to forearm - avoid false positives in folded configurations -->
+  <disable_collisions link1="forearm_link" link2="robotiq_85_base_link" reason="Never" />
+  <disable_collisions link1="forearm_link" link2="robotiq_85_left_knuckle_link" reason="Never" />
+  <disable_collisions link1="forearm_link" link2="robotiq_85_right_knuckle_link" reason="Never" />
+  <disable_collisions link1="forearm_link" link2="robotiq_85_left_finger_link" reason="Never" />
+  <disable_collisions link1="forearm_link" link2="robotiq_85_right_finger_link" reason="Never" />
+  <disable_collisions link1="forearm_link" link2="robotiq_85_left_finger_tip_link" reason="Never" />
+  <disable_collisions link1="forearm_link" link2="robotiq_85_right_finger_tip_link" reason="Never" />
+  <disable_collisions link1="forearm_link" link2="robotiq_85_left_inner_knuckle_link" reason="Never" />
+  <disable_collisions link1="forearm_link" link2="robotiq_85_right_inner_knuckle_link" reason="Never" />
+
+  <!-- Gripper to wrist_2_link -->
+  <disable_collisions link1="wrist_2_link" link2="robotiq_85_base_link" reason="Never" />
+  <disable_collisions link1="wrist_2_link" link2="robotiq_85_left_knuckle_link" reason="Never" />
+  <disable_collisions link1="wrist_2_link" link2="robotiq_85_right_knuckle_link" reason="Never" />
+  <disable_collisions link1="wrist_2_link" link2="robotiq_85_left_finger_link" reason="Never" />
+  <disable_collisions link1="wrist_2_link" link2="robotiq_85_right_finger_link" reason="Never" />
+
+  <!-- Gripper to wrist_1_link -->
+  <disable_collisions link1="wrist_1_link" link2="robotiq_85_base_link" reason="Never" />
+  <disable_collisions link1="wrist_1_link" link2="robotiq_85_left_knuckle_link" reason="Never" />
+  <disable_collisions link1="wrist_1_link" link2="robotiq_85_right_knuckle_link" reason="Never" />
+
+  <!-- Disable self-collisions with ground_plane (if it gets added as collision object) -->
+  <!-- Note: ground_plane from world shouldn't be in robot model, but adding just in case -->
+
+</robot>

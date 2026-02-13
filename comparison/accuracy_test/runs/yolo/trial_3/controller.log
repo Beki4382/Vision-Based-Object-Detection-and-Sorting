@@ -1,0 +1,243 @@
+[INFO] [launch]: All log files can be found below /home/beki/.ros/log/2026-02-04-11-07-21-079956-beki-Lenovo-Legion-5-15ARH05-640125
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pick_place_controller.py-1]: process started with pid [640143]
+[pick_place_controller.py-1] [INFO] [1770192443.058155873] [pick_place_controller]: Pick-Place Controller (Size V1) initializing...
+[pick_place_controller.py-1] [INFO] [1770192443.058741010] [pick_place_controller]: Waiting for scene manager...
+[pick_place_controller.py-1] [INFO] [1770192446.136153456] [pick_place_controller]: ✓ Scene manager ready
+[pick_place_controller.py-1] [INFO] [1770192446.136723297] [pick_place_controller]:   Found 4 cube(s) to pick
+[pick_place_controller.py-1] [INFO] [1770192446.137297678] [pick_place_controller]:   1. BIG GREEN: pick=(0.24817, 0.273152) → place=(0.7, -0.4)
+[pick_place_controller.py-1] [INFO] [1770192446.137948746] [pick_place_controller]:   2. SMALL GREEN: pick=(0.549632, 0.219908) → place=(0.85, -0.4)
+[pick_place_controller.py-1] [INFO] [1770192446.138620905] [pick_place_controller]:   3. BIG RED: pick=(0.250288, 0.058609999999999995) → place=(0.35, -0.4)
+[pick_place_controller.py-1] [INFO] [1770192446.139184670] [pick_place_controller]:   4. SMALL RED: pick=(0.44232, 0.22069100000000003) → place=(0.2, -0.4)
+[pick_place_controller.py-1] [INFO] [1770192446.139652682] [pick_place_controller]: Waiting for controllers...
+[pick_place_controller.py-1] [INFO] [1770192446.140272669] [pick_place_controller]: ✓ MoveGroup connected
+[pick_place_controller.py-1] [INFO] [1770192446.140903553] [pick_place_controller]: ✓ Trajectory controller connected
+[pick_place_controller.py-1] [INFO] [1770192446.141516067] [pick_place_controller]: ✓ Joint states received
+[pick_place_controller.py-1] [INFO] [1770192446.141992041] [pick_place_controller]: [SCENE] Cube positions FROZEN - using current detections
+[pick_place_controller.py-1] [INFO] [1770192446.142520535] [pick_place_controller]: ════════════════════════════════════════════════════════════
+[pick_place_controller.py-1] [INFO] [1770192446.143015576] [pick_place_controller]:    Pick-and-Place Controller - Size V1
+[pick_place_controller.py-1] [INFO] [1770192446.143574172] [pick_place_controller]:    Size-Based Sorting • ROS 2 Jazzy
+[pick_place_controller.py-1] [INFO] [1770192446.144092540] [pick_place_controller]: ════════════════════════════════════════════════════════════
+[pick_place_controller.py-1] [INFO] [1770192446.144622082] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Initialize ──
+[pick_place_controller.py-1] [INFO] [1770192446.145122850] [pick_place_controller]: [INIT] Waiting 15 seconds for physics to settle...
+[pick_place_controller.py-1] [INFO] [1770192461.147558430] [pick_place_controller]: [PHYSICS] Initial detach of all 4 cubes...
+[pick_place_controller.py-1] [INFO] [1770192461.902031150] [pick_place_controller]: [PHYSICS] ✓ All cubes detached
+[pick_place_controller.py-1] [INFO] [1770192461.902632210] [pick_place_controller]: [GRIPPER] OPENING to 0.00
+[pick_place_controller.py-1] [INFO] [1770192462.540086856] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Home Position ──
+[pick_place_controller.py-1] [INFO] [1770192462.540790584] [pick_place_controller]: [MOTION] home: (0.250, 0.000, 0.380)
+[pick_place_controller.py-1] [INFO] [1770192468.280269799] [pick_place_controller]: [MOTION] ✓ home
+[pick_place_controller.py-1] [INFO] [1770192468.281908362] [pick_place_controller]: 
+[pick_place_controller.py-1] ────────────────────────────────────────────────────────────
+[pick_place_controller.py-1] [INFO] [1770192468.283362403] [pick_place_controller]:    Picking BIG GREEN cube (Priority 1)
+[pick_place_controller.py-1] [INFO] [1770192468.284100424] [pick_place_controller]:    From: (0.24817, 0.273152) → To: (0.7, -0.4)
+[pick_place_controller.py-1] [INFO] [1770192468.284740386] [pick_place_controller]: ────────────────────────────────────────────────────────────
+[pick_place_controller.py-1] [INFO] [1770192468.285363865] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Approach BIG GREEN Cube ──
+[pick_place_controller.py-1] [INFO] [1770192468.286231094] [pick_place_controller]: [MOTION] above big green cube: (0.248, 0.273, 0.320)
+[pick_place_controller.py-1] [INFO] [1770192474.450397336] [pick_place_controller]: [MOTION] ✓ above big green cube
+[pick_place_controller.py-1] [INFO] [1770192474.451444337] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Descend to Pick BIG GREEN ──
+[pick_place_controller.py-1] [INFO] [1770192474.452260441] [pick_place_controller]: [MOTION] big green pick position: (0.248, 0.273, 0.190)
+[pick_place_controller.py-1] [INFO] [1770192488.035149456] [pick_place_controller]: [MOTION] ✓ big green pick position
+[pick_place_controller.py-1] [INFO] [1770192488.035951103] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Grasp BIG GREEN Cube ──
+[pick_place_controller.py-1] [INFO] [1770192488.036494054] [pick_place_controller]: [GRIPPER] CLOSING to 0.68
+[pick_place_controller.py-1] [INFO] [1770192488.671143229] [pick_place_controller]: [PHYSICS] Attaching big green cube...
+[pick_place_controller.py-1] [INFO] [1770192488.912628393] [pick_place_controller]: [PHYSICS] ✓ Big Green cube attached
+[pick_place_controller.py-1] [INFO] [1770192489.114483536] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Lift BIG GREEN Cube ──
+[pick_place_controller.py-1] [INFO] [1770192489.115582919] [pick_place_controller]: [MOTION] lift big green: (0.248, 0.273, 0.320)
+[pick_place_controller.py-1] [INFO] [1770192501.325760536] [pick_place_controller]: [MOTION] ✓ lift big green
+[pick_place_controller.py-1] [INFO] [1770192501.328381356] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Transit BIG GREEN to Place ──
+[pick_place_controller.py-1] [INFO] [1770192501.330835603] [pick_place_controller]: [MOTION] transit waypoint: (0.300, 0.000, 0.380)
+[pick_place_controller.py-1] [INFO] [1770192510.435721949] [pick_place_controller]: [MOTION] ✓ transit waypoint
+[pick_place_controller.py-1] [INFO] [1770192510.436396553] [pick_place_controller]: [MOTION] above big green place: (0.700, -0.400, 0.320)
+[pick_place_controller.py-1] [INFO] [1770192523.331028740] [pick_place_controller]: [MOTION] ✓ above big green place
+[pick_place_controller.py-1] [INFO] [1770192523.332004292] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Lower BIG GREEN to Place ──
+[pick_place_controller.py-1] [INFO] [1770192523.332681130] [pick_place_controller]: [MOTION] big green place position: (0.700, -0.400, 0.210)
+[pick_place_controller.py-1] [WARN] [1770192528.338876551] [pick_place_controller]: [MOTION] ✗ Failed (99999): big green place position
+[pick_place_controller.py-1] [INFO] [1770192528.339466576] [pick_place_controller]: [RETRY] Attempt 2/3...
+[pick_place_controller.py-1] [INFO] [1770192528.840152721] [pick_place_controller]: [MOTION] big green place position: (0.700, -0.400, 0.210)
+[pick_place_controller.py-1] [INFO] [1770192534.393868034] [pick_place_controller]: [MOTION] ✓ big green place position
+[pick_place_controller.py-1] [INFO] [1770192534.394856716] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Release BIG GREEN Cube ──
+[pick_place_controller.py-1] [INFO] [1770192534.395436893] [pick_place_controller]: [PHYSICS] Detaching big green cube...
+[pick_place_controller.py-1] [INFO] [1770192534.636797852] [pick_place_controller]: [PHYSICS] ✓ Big Green cube detached
+[pick_place_controller.py-1] [INFO] [1770192534.637636444] [pick_place_controller]: [GRIPPER] OPENING to 0.00
+[pick_place_controller.py-1] [INFO] [1770192535.568838653] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Retract from BIG GREEN ──
+[pick_place_controller.py-1] [INFO] [1770192535.569277819] [pick_place_controller]: [MOTION] retract from big green: (0.700, -0.400, 0.320)
+[pick_place_controller.py-1] [INFO] [1770192542.770791926] [pick_place_controller]: [MOTION] ✓ retract from big green
+[pick_place_controller.py-1] [INFO] [1770192542.771907512] [pick_place_controller]: 
+[pick_place_controller.py-1] ✓ BIG GREEN cube placed successfully!
+[pick_place_controller.py-1] [INFO] [1770192542.772700217] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Return to Home ──
+[pick_place_controller.py-1] [INFO] [1770192542.773328096] [pick_place_controller]: [MOTION] home: (0.250, 0.000, 0.380)
+[pick_place_controller.py-1] [WARN] [1770192547.784586852] [pick_place_controller]: [MOTION] ✗ Failed (99999): home
+[pick_place_controller.py-1] [INFO] [1770192547.785224229] [pick_place_controller]: [RETRY] Attempt 2/3...
+[pick_place_controller.py-1] [INFO] [1770192548.286051735] [pick_place_controller]: [MOTION] home: (0.250, 0.000, 0.380)
+[pick_place_controller.py-1] [WARN] [1770192548.395852180] [pick_place_controller]: [MOTION] ✗ Failed (-2): home
+[pick_place_controller.py-1] [INFO] [1770192548.396457081] [pick_place_controller]: [RETRY] Attempt 3/3...
+[pick_place_controller.py-1] [INFO] [1770192548.898313704] [pick_place_controller]: [MOTION] home: (0.250, 0.000, 0.380)
+[pick_place_controller.py-1] [INFO] [1770192561.667770152] [pick_place_controller]: [MOTION] ✓ home
+[pick_place_controller.py-1] [INFO] [1770192561.668523397] [pick_place_controller]: 
+[pick_place_controller.py-1] ────────────────────────────────────────────────────────────
+[pick_place_controller.py-1] [INFO] [1770192561.669214134] [pick_place_controller]:    Picking SMALL GREEN cube (Priority 2)
+[pick_place_controller.py-1] [INFO] [1770192561.669848368] [pick_place_controller]:    From: (0.549632, 0.219908) → To: (0.85, -0.4)
+[pick_place_controller.py-1] [INFO] [1770192561.670510470] [pick_place_controller]: ────────────────────────────────────────────────────────────
+[pick_place_controller.py-1] [INFO] [1770192561.671207632] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Approach SMALL GREEN Cube ──
+[pick_place_controller.py-1] [INFO] [1770192561.671889428] [pick_place_controller]: [MOTION] above small green cube: (0.550, 0.220, 0.280)
+[pick_place_controller.py-1] [INFO] [1770192569.767958120] [pick_place_controller]: [MOTION] ✓ above small green cube
+[pick_place_controller.py-1] [INFO] [1770192569.768827302] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Descend to Pick SMALL GREEN ──
+[pick_place_controller.py-1] [INFO] [1770192569.769905242] [pick_place_controller]: [MOTION] small green pick position: (0.550, 0.220, 0.160)
+[pick_place_controller.py-1] [INFO] [1770192572.410675582] [pick_place_controller]: [MOTION] ✓ small green pick position
+[pick_place_controller.py-1] [INFO] [1770192572.411503628] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Grasp SMALL GREEN Cube ──
+[pick_place_controller.py-1] [INFO] [1770192572.412060198] [pick_place_controller]: [GRIPPER] CLOSING to 0.68
+[pick_place_controller.py-1] [INFO] [1770192573.047739886] [pick_place_controller]: [PHYSICS] Attaching small green cube...
+[pick_place_controller.py-1] [INFO] [1770192573.294296114] [pick_place_controller]: [PHYSICS] ✓ Small Green cube attached
+[pick_place_controller.py-1] [INFO] [1770192573.495672385] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Lift SMALL GREEN Cube ──
+[pick_place_controller.py-1] [INFO] [1770192573.497157573] [pick_place_controller]: [MOTION] lift small green: (0.550, 0.220, 0.280)
+[pick_place_controller.py-1] [INFO] [1770192575.080972332] [pick_place_controller]: [MOTION] ✓ lift small green
+[pick_place_controller.py-1] [INFO] [1770192575.081884467] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Transit SMALL GREEN to Place ──
+[pick_place_controller.py-1] [INFO] [1770192575.082593432] [pick_place_controller]: [MOTION] transit waypoint: (0.300, 0.000, 0.380)
+[pick_place_controller.py-1] [INFO] [1770192582.321062792] [pick_place_controller]: [MOTION] ✓ transit waypoint
+[pick_place_controller.py-1] [INFO] [1770192582.323061946] [pick_place_controller]: [MOTION] above small green place: (0.850, -0.400, 0.280)
+[pick_place_controller.py-1] [WARN] [1770192587.355163873] [pick_place_controller]: [MOTION] ✗ Failed (99999): above small green place
+[pick_place_controller.py-1] [INFO] [1770192587.356172669] [pick_place_controller]: [RETRY] Attempt 2/3...
+[pick_place_controller.py-1] [INFO] [1770192587.856930137] [pick_place_controller]: [MOTION] above small green place: (0.850, -0.400, 0.280)
+[pick_place_controller.py-1] [WARN] [1770192592.881058694] [pick_place_controller]: [MOTION] ✗ Failed (99999): above small green place
+[pick_place_controller.py-1] [INFO] [1770192592.882718347] [pick_place_controller]: [RETRY] Attempt 3/3...
+[pick_place_controller.py-1] [INFO] [1770192593.383377860] [pick_place_controller]: [MOTION] above small green place: (0.850, -0.400, 0.280)
+[pick_place_controller.py-1] [INFO] [1770192627.003864320] [pick_place_controller]: [MOTION] ✓ above small green place
+[pick_place_controller.py-1] [INFO] [1770192627.004706753] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Lower SMALL GREEN to Place ──
+[pick_place_controller.py-1] [INFO] [1770192627.005393228] [pick_place_controller]: [MOTION] small green place position: (0.850, -0.400, 0.180)
+[pick_place_controller.py-1] [INFO] [1770192629.533314408] [pick_place_controller]: [MOTION] ✓ small green place position
+[pick_place_controller.py-1] [INFO] [1770192629.538007222] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Release SMALL GREEN Cube ──
+[pick_place_controller.py-1] [INFO] [1770192629.539438491] [pick_place_controller]: [PHYSICS] Detaching small green cube...
+[pick_place_controller.py-1] [INFO] [1770192629.782913122] [pick_place_controller]: [PHYSICS] ✓ Small Green cube detached
+[pick_place_controller.py-1] [INFO] [1770192629.783529128] [pick_place_controller]: [GRIPPER] OPENING to 0.00
+[pick_place_controller.py-1] [INFO] [1770192630.717320823] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Retract from SMALL GREEN ──
+[pick_place_controller.py-1] [INFO] [1770192630.717980968] [pick_place_controller]: [MOTION] retract from small green: (0.850, -0.400, 0.280)
+[pick_place_controller.py-1] [INFO] [1770192648.858123750] [pick_place_controller]: [MOTION] ✓ retract from small green
+[pick_place_controller.py-1] [INFO] [1770192648.860345768] [pick_place_controller]: 
+[pick_place_controller.py-1] ✓ SMALL GREEN cube placed successfully!
+[pick_place_controller.py-1] [INFO] [1770192648.861101248] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Return to Home ──
+[pick_place_controller.py-1] [INFO] [1770192648.861751196] [pick_place_controller]: [MOTION] home: (0.250, 0.000, 0.380)
+[pick_place_controller.py-1] [INFO] [1770192661.359728382] [pick_place_controller]: [MOTION] ✓ home
+[pick_place_controller.py-1] [INFO] [1770192661.360257364] [pick_place_controller]: 
+[pick_place_controller.py-1] ────────────────────────────────────────────────────────────
+[pick_place_controller.py-1] [INFO] [1770192661.360708682] [pick_place_controller]:    Picking BIG RED cube (Priority 3)
+[pick_place_controller.py-1] [INFO] [1770192661.361227467] [pick_place_controller]:    From: (0.250288, 0.058609999999999995) → To: (0.35, -0.4)
+[pick_place_controller.py-1] [INFO] [1770192661.361942368] [pick_place_controller]: ────────────────────────────────────────────────────────────
+[pick_place_controller.py-1] [INFO] [1770192661.362609776] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Approach BIG RED Cube ──
+[pick_place_controller.py-1] [INFO] [1770192661.363308055] [pick_place_controller]: [MOTION] above big red cube: (0.250, 0.059, 0.320)
+[pick_place_controller.py-1] [INFO] [1770192664.203870410] [pick_place_controller]: [MOTION] ✓ above big red cube
+[pick_place_controller.py-1] [INFO] [1770192664.205644811] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Descend to Pick BIG RED ──
+[pick_place_controller.py-1] [INFO] [1770192664.206436957] [pick_place_controller]: [MOTION] big red pick position: (0.250, 0.059, 0.190)
+[pick_place_controller.py-1] [INFO] [1770192669.934366032] [pick_place_controller]: [MOTION] ✓ big red pick position
+[pick_place_controller.py-1] [INFO] [1770192669.936198612] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Grasp BIG RED Cube ──
+[pick_place_controller.py-1] [INFO] [1770192669.937472806] [pick_place_controller]: [GRIPPER] CLOSING to 0.68
+[pick_place_controller.py-1] [INFO] [1770192670.571119624] [pick_place_controller]: [PHYSICS] Attaching big red cube...
+[pick_place_controller.py-1] [INFO] [1770192670.813737182] [pick_place_controller]: [PHYSICS] ✓ Big Red cube attached
+[pick_place_controller.py-1] [INFO] [1770192671.017328319] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Lift BIG RED Cube ──
+[pick_place_controller.py-1] [INFO] [1770192671.018086033] [pick_place_controller]: [MOTION] lift big red: (0.250, 0.059, 0.320)
+[pick_place_controller.py-1] [INFO] [1770192680.083032197] [pick_place_controller]: [MOTION] ✓ lift big red
+[pick_place_controller.py-1] [INFO] [1770192680.083838311] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Transit BIG RED to Place ──
+[pick_place_controller.py-1] [INFO] [1770192680.084421630] [pick_place_controller]: [MOTION] transit waypoint: (0.300, 0.000, 0.380)
+[pick_place_controller.py-1] [INFO] [1770192682.454100700] [pick_place_controller]: [MOTION] ✓ transit waypoint
+[pick_place_controller.py-1] [INFO] [1770192682.454696381] [pick_place_controller]: [MOTION] above big red place: (0.350, -0.400, 0.320)
+[pick_place_controller.py-1] [INFO] [1770192691.526302103] [pick_place_controller]: [MOTION] ✓ above big red place
+[pick_place_controller.py-1] [INFO] [1770192691.527260751] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Lower BIG RED to Place ──
+[pick_place_controller.py-1] [INFO] [1770192691.528039627] [pick_place_controller]: [MOTION] big red place position: (0.350, -0.400, 0.210)
+[pick_place_controller.py-1] [INFO] [1770192698.630071436] [pick_place_controller]: [MOTION] ✓ big red place position
+[pick_place_controller.py-1] [INFO] [1770192698.631076669] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Release BIG RED Cube ──
+[pick_place_controller.py-1] [INFO] [1770192698.631703918] [pick_place_controller]: [PHYSICS] Detaching big red cube...
+[pick_place_controller.py-1] [INFO] [1770192698.873195275] [pick_place_controller]: [PHYSICS] ✓ Big Red cube detached
+[pick_place_controller.py-1] [INFO] [1770192698.873847038] [pick_place_controller]: [GRIPPER] OPENING to 0.00
+[pick_place_controller.py-1] [INFO] [1770192699.812597133] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Retract from BIG RED ──
+[pick_place_controller.py-1] [INFO] [1770192699.813247779] [pick_place_controller]: [MOTION] retract from big red: (0.350, -0.400, 0.320)
+[pick_place_controller.py-1] [INFO] [1770192703.053507547] [pick_place_controller]: [MOTION] ✓ retract from big red
+[pick_place_controller.py-1] [INFO] [1770192703.054548259] [pick_place_controller]: 
+[pick_place_controller.py-1] ✓ BIG RED cube placed successfully!
+[pick_place_controller.py-1] [INFO] [1770192703.055337611] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Return to Home ──
+[pick_place_controller.py-1] [INFO] [1770192703.056012772] [pick_place_controller]: [MOTION] home: (0.250, 0.000, 0.380)
+[pick_place_controller.py-1] [INFO] [1770192706.743571604] [pick_place_controller]: [MOTION] ✓ home
+[pick_place_controller.py-1] [INFO] [1770192706.744201298] [pick_place_controller]: 
+[pick_place_controller.py-1] ────────────────────────────────────────────────────────────
+[pick_place_controller.py-1] [INFO] [1770192706.744845658] [pick_place_controller]:    Picking SMALL RED cube (Priority 4)
+[pick_place_controller.py-1] [INFO] [1770192706.745487714] [pick_place_controller]:    From: (0.44232, 0.22069100000000003) → To: (0.2, -0.4)
+[pick_place_controller.py-1] [INFO] [1770192706.746114893] [pick_place_controller]: ────────────────────────────────────────────────────────────
+[pick_place_controller.py-1] [INFO] [1770192706.746870930] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Approach SMALL RED Cube ──
+[pick_place_controller.py-1] [INFO] [1770192706.747629761] [pick_place_controller]: [MOTION] above small red cube: (0.442, 0.221, 0.280)
+[pick_place_controller.py-1] [INFO] [1770192712.450115610] [pick_place_controller]: [MOTION] ✓ above small red cube
+[pick_place_controller.py-1] [INFO] [1770192712.450818149] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Descend to Pick SMALL RED ──
+[pick_place_controller.py-1] [INFO] [1770192712.451509373] [pick_place_controller]: [MOTION] small red pick position: (0.442, 0.221, 0.160)
+[pick_place_controller.py-1] [INFO] [1770192717.902501962] [pick_place_controller]: [MOTION] ✓ small red pick position
+[pick_place_controller.py-1] [INFO] [1770192717.903650999] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Grasp SMALL RED Cube ──
+[pick_place_controller.py-1] [INFO] [1770192717.904248566] [pick_place_controller]: [GRIPPER] CLOSING to 0.68
+[pick_place_controller.py-1] [INFO] [1770192718.539305659] [pick_place_controller]: [PHYSICS] Attaching small red cube...
+[pick_place_controller.py-1] [INFO] [1770192718.780660565] [pick_place_controller]: [PHYSICS] ✓ Small Red cube attached
+[pick_place_controller.py-1] [INFO] [1770192718.982520781] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Lift SMALL RED Cube ──
+[pick_place_controller.py-1] [INFO] [1770192718.986620773] [pick_place_controller]: [MOTION] lift small red: (0.442, 0.221, 0.280)
+[pick_place_controller.py-1] [INFO] [1770192726.366273199] [pick_place_controller]: [MOTION] ✓ lift small red
+[pick_place_controller.py-1] [INFO] [1770192726.367706003] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Transit SMALL RED to Place ──
+[pick_place_controller.py-1] [INFO] [1770192726.368369569] [pick_place_controller]: [MOTION] transit waypoint: (0.300, 0.000, 0.380)
+[pick_place_controller.py-1] [INFO] [1770192730.664588277] [pick_place_controller]: [MOTION] ✓ transit waypoint
+[pick_place_controller.py-1] [INFO] [1770192730.665429382] [pick_place_controller]: [MOTION] above small red place: (0.200, -0.400, 0.280)
+[pick_place_controller.py-1] [INFO] [1770192739.942423225] [pick_place_controller]: [MOTION] ✓ above small red place
+[pick_place_controller.py-1] [INFO] [1770192739.943453041] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Lower SMALL RED to Place ──
+[pick_place_controller.py-1] [INFO] [1770192739.944184005] [pick_place_controller]: [MOTION] small red place position: (0.200, -0.400, 0.180)
+[pick_place_controller.py-1] [INFO] [1770192749.996518716] [pick_place_controller]: [MOTION] ✓ small red place position
+[pick_place_controller.py-1] [INFO] [1770192749.997391389] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Release SMALL RED Cube ──
+[pick_place_controller.py-1] [INFO] [1770192749.997919742] [pick_place_controller]: [PHYSICS] Detaching small red cube...
+[pick_place_controller.py-1] [INFO] [1770192750.239280300] [pick_place_controller]: [PHYSICS] ✓ Small Red cube detached
+[pick_place_controller.py-1] [INFO] [1770192750.239938419] [pick_place_controller]: [GRIPPER] OPENING to 0.00
+[pick_place_controller.py-1] [INFO] [1770192751.175445564] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Retract from SMALL RED ──
+[pick_place_controller.py-1] [INFO] [1770192751.175999479] [pick_place_controller]: [MOTION] retract from small red: (0.200, -0.400, 0.280)
+[pick_place_controller.py-1] [INFO] [1770192758.427100909] [pick_place_controller]: [MOTION] ✓ retract from small red
+[pick_place_controller.py-1] [INFO] [1770192758.427973861] [pick_place_controller]: 
+[pick_place_controller.py-1] ✓ SMALL RED cube placed successfully!
+[pick_place_controller.py-1] [INFO] [1770192758.428574011] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Return to Home ──
+[pick_place_controller.py-1] [INFO] [1770192758.429077221] [pick_place_controller]: [MOTION] home: (0.250, 0.000, 0.380)
+[pick_place_controller.py-1] [INFO] [1770192761.378975299] [pick_place_controller]: [MOTION] ✓ home
+[pick_place_controller.py-1] [INFO] [1770192761.379756619] [pick_place_controller]: 
+[pick_place_controller.py-1] ── Final Position ──
+[pick_place_controller.py-1] [INFO] [1770192761.380304737] [pick_place_controller]: [MOTION] final home: (0.250, 0.000, 0.380)
+[pick_place_controller.py-1] [INFO] [1770192764.369126033] [pick_place_controller]: [MOTION] ✓ final home
+[pick_place_controller.py-1] [INFO] [1770192764.369813206] [pick_place_controller]: 
+[pick_place_controller.py-1] ════════════════════════════════════════════════════════════
+[pick_place_controller.py-1] [INFO] [1770192764.370497795] [pick_place_controller]:    ✓ Pick-and-Place Complete!
+[pick_place_controller.py-1] [INFO] [1770192764.371091100] [pick_place_controller]:    Processed 4 cube(s)
+[pick_place_controller.py-1] [INFO] [1770192764.371758648] [pick_place_controller]: ════════════════════════════════════════════════════════════
+[INFO] [pick_place_controller.py-1]: process has finished cleanly [pid 640143]

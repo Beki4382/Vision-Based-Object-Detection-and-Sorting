@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <model name="big_red_cube">
+    <static>false</static>
+    <link name="link">
+      <inertial>
+        <!-- 12cm cube, 1.6kg (8x volume = 8x mass) -->
+        <mass>1.6</mass>
+        <inertia>
+          <!-- I = (1/6) * m * s^2 for a cube = (1/6) * 1.6 * 0.12^2 = 0.00384 -->
+          <ixx>0.00384</ixx>
+          <iyy>0.00384</iyy>
+          <izz>0.00384</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyz>0</iyz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <!-- 12cm cube - double the size of small cube -->
+            <size>0.12 0.12 0.12</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>2.0</mu>
+              <mu2>2.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>1e6</kp>
+              <kd>100</kd>
+              <max_vel>0.05</max_vel>
+              <min_depth>0.0005</min_depth>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.12 0.12 0.12</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.8 0.1 0.1 1</ambient>
+          <diffuse>0.9 0.1 0.1 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

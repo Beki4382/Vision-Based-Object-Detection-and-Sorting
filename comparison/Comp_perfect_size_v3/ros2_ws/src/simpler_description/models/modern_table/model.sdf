@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <model name="modern_table">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0.74 0 0 0</pose>
+
+      <!-- Larger collision surface: 2.35m x 1.4m (was 2.35 x 1) -->
+      <collision name="surface">
+        <pose>0 0 -0.015 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2.35 1.4 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <!-- Simple box visual for larger table surface -->
+      <visual name="table_surface">
+        <pose>0 0 -0.015 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>2.35 1.4 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.6 0.5 0.4 1</ambient>
+          <diffuse>0.7 0.6 0.5 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+        </material>
+      </visual>
+
+      <!-- Table legs (4 corners) -->
+      <visual name="leg_front_left">
+        <pose>1.1 0.65 -0.37 0 0 0</pose>
+        <geometry>
+          <box><size>0.05 0.05 0.70</size></box>
+        </geometry>
+        <material>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.4 0.4 0.4 1</diffuse>
+        </material>
+      </visual>
+      <visual name="leg_front_right">
+        <pose>-1.1 0.65 -0.37 0 0 0</pose>
+        <geometry>
+          <box><size>0.05 0.05 0.70</size></box>
+        </geometry>
+        <material>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.4 0.4 0.4 1</diffuse>
+        </material>
+      </visual>
+      <visual name="leg_back_left">
+        <pose>1.1 -0.65 -0.37 0 0 0</pose>
+        <geometry>
+          <box><size>0.05 0.05 0.70</size></box>
+        </geometry>
+        <material>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.4 0.4 0.4 1</diffuse>
+        </material>
+      </visual>
+      <visual name="leg_back_right">
+        <pose>-1.1 -0.65 -0.37 0 0 0</pose>
+        <geometry>
+          <box><size>0.05 0.05 0.70</size></box>
+        </geometry>
+        <material>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.4 0.4 0.4 1</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

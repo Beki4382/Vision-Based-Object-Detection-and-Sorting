@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <model name="red_cube">
+    <static>false</static>
+    <link name="link">
+      <inertial>
+        <!-- 6cm cube, 0.2kg - heavier for better physics -->
+        <mass>0.2</mass>
+        <inertia>
+          <!-- I = (1/6) * m * s^2 for a cube -->
+          <ixx>0.00012</ixx>
+          <iyy>0.00012</iyy>
+          <izz>0.00012</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyz>0</iyz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <!-- 6cm cube - easier to grip with Robotiq 85 -->
+            <size>0.06 0.06 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.5</mu>
+              <mu2>1.5</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>1e6</kp>
+              <kd>100</kd>
+              <max_vel>0.1</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.8 0.1 0.1 1</ambient>
+          <diffuse>0.9 0.1 0.1 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

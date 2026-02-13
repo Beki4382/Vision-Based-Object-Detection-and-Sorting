@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['bluecube', 'green cube', 'red cube']
+
+roboflow:
+  workspace: beky
+  project: red-green-blue-cube-detection-tidtc
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/beky/red-green-blue-cube-detection-tidtc/dataset/2

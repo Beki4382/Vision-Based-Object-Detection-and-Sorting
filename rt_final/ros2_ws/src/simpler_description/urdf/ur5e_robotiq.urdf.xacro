@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="$(arg name)">
+  <!--
+    UR5e + Robotiq 2F-85 Gripper for Gazebo Sim
+    Combines ur_simulation_gz URDF with robotiq_description gripper
+  -->
+
+  <!-- Arguments -->
+  <xacro:arg name="name" default="ur"/>
+  <xacro:arg name="ur_type" default="ur5e"/>
+  <xacro:arg name="tf_prefix" default=""/>
+  <xacro:arg name="safety_limits" default="true"/>
+  <xacro:arg name="safety_pos_margin" default="0.15"/>
+  <xacro:arg name="safety_k_position" default="20"/>
+  <xacro:arg name="simulation_controllers" default=""/>
+  <xacro:arg name="ros_namespace" default=""/>
+
+  <!-- Import UR macro -->
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+  
+  <!-- Import UR ros2_control for Gazebo -->
+  <xacro:include filename="$(find ur_simulation_gz)/urdf/ur_gz.ros2_control.xacro"/>
+  
+  <!-- Import Robotiq gripper macro (local patched version without mimic attributes for ros2_control compatibility) -->
+  <xacro:include filename="$(find simpler_description)/urdf/robotiq_2f_85_patched.urdf.xacro"/>
+
+  <!-- World link -->
+  <link name="world"/>
+
+  <!-- Ground plane for visualization -->
+  <link name="ground_plane">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="5 5 0"/>
+      </geometry>
+      <material name="ground_white">
+        <color rgba="1 1 1 0.5"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="5 5 0"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="ground_plane_joint" type="fixed">
+    <origin xyz="0 0 -0.01" rpy="0 0 0"/>
+    <parent link="world"/>
+    <child link="ground_plane"/>
+  </joint>
+
+  <!-- UR5e Robot Arm -->
+  <xacro:ur_robot
+    name="$(arg name)"
+    tf_prefix="$(arg tf_prefix)"
+    parent="world"
+    joint_limits_parameters_file="$(find ur_description)/config/$(arg ur_type)/joint_limits.yaml"
+    kinematics_parameters_file="$(find ur_description)/config/$(arg ur_type)/default_kinematics.yaml"
+    physical_parameters_file="$(find ur_description)/config/$(arg ur_type)/physical_parameters.yaml"
+    visual_parameters_file="$(find ur_description)/config/$(arg ur_type)/visual_parameters.yaml"
+    safety_limits="$(arg safety_limits)"
+    safety_pos_margin="$(arg safety_pos_margin)"
+    safety_k_position="$(arg safety_k_position)"
+    force_abs_paths="true"
+  >
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:ur_robot>
+
+  <!-- Robotiq 2F-85 Gripper attached to tool0 -->
+  <xacro:robotiq_gripper
+    name="RobotiqGripperHardwareInterface"
+    prefix="$(arg tf_prefix)"
+    parent="$(arg tf_prefix)tool0"
+    use_fake_hardware="true"
+    include_ros2_control="false"
+  >
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:robotiq_gripper>
+
+  <!-- Gazebo world reference -->
+  <gazebo reference="world"/>
+
+  <!-- Gazebo ros2_control plugin -->
+  <gazebo>
+    <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>$(arg simulation_controllers)</parameters>
+      <ros>
+        <namespace>$(arg ros_namespace)</namespace>
+      </ros>
+    </plugin>
+  </gazebo>
+
+  <!-- DetachableJoint plugin for RED cube physics-based grasping -->
+  <!-- Use /gripper/attach_red to attach, /gripper/detach_red to release -->
+  <gazebo>
+    <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+      <parent_link>$(arg tf_prefix)robotiq_85_left_finger_tip_link</parent_link>
+      <child_model>red_cube</child_model>
+      <child_link>link</child_link>
+      <detach_topic>/gripper/detach_red</detach_topic>
+      <attach_topic>/gripper/attach_red</attach_topic>
+      <output_topic>/gripper/state_red</output_topic>
+    </plugin>
+  </gazebo>
+
+  <!-- DetachableJoint plugin for GREEN cube (small) physics-based grasping -->
+  <!-- Use /gripper/attach_green to attach, /gripper/detach_green to release -->
+  <gazebo>
+    <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+      <parent_link>$(arg tf_prefix)robotiq_85_left_finger_tip_link</parent_link>
+      <child_model>green_cube</child_model>
+      <child_link>link</child_link>
+      <detach_topic>/gripper/detach_green</detach_topic>
+      <attach_topic>/gripper/attach_green</attach_topic>
+      <output_topic>/gripper/state_green</output_topic>
+    </plugin>
+  </gazebo>
+
+  <!-- DetachableJoint plugin for BIG RED cube physics-based grasping -->
+  <!-- Use /gripper/attach_big_red to attach, /gripper/detach_big_red to release -->
+  <gazebo>
+    <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+      <parent_link>$(arg tf_prefix)robotiq_85_left_finger_tip_link</parent_link>
+      <child_model>big_red_cube</child_model>
+      <child_link>link</child_link>
+      <detach_topic>/gripper/detach_big_red</detach_topic>
+      <attach_topic>/gripper/attach_big_red</attach_topic>
+      <output_topic>/gripper/state_big_red</output_topic>
+    </plugin>
+  </gazebo>
+
+  <!-- DetachableJoint plugin for BIG GREEN cube physics-based grasping -->
+  <!-- Use /gripper/attach_big_green to attach, /gripper/detach_big_green to release -->
+  <gazebo>
+    <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+      <parent_link>$(arg tf_prefix)robotiq_85_left_finger_tip_link</parent_link>
+      <child_model>big_green_cube</child_model>
+      <child_link>link</child_link>
+      <detach_topic>/gripper/detach_big_green</detach_topic>
+      <attach_topic>/gripper/attach_big_green</attach_topic>
+      <output_topic>/gripper/state_big_green</output_topic>
+    </plugin>
+  </gazebo>
+
+  <!-- UR ros2_control instance -->
+  <xacro:ur_ros2_control
+    name="$(arg name)"
+    tf_prefix="$(arg tf_prefix)"
+    transmission_hw_interface=""
+  />
+
+  <!-- Gripper ros2_control instance (separate hardware interface for simulation) -->
+  <!-- Using GazeboSimSystem with mimic joints for synchronized finger movement -->
+  <ros2_control name="gripper_controller" type="system">
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    </hardware>
+    <!-- Primary controlled joint - left knuckle -->
+    <joint name="$(arg tf_prefix)robotiq_85_left_knuckle_joint">
+      <command_interface name="position">
+        <param name="min">0.0</param>
+        <param name="max">0.8</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <!-- Right knuckle - mimic left knuckle with -1 multiplier -->
+    <joint name="$(arg tf_prefix)robotiq_85_right_knuckle_joint">
+      <param name="mimic">$(arg tf_prefix)robotiq_85_left_knuckle_joint</param>
+      <param name="multiplier">-1.0</param>
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <!-- Left inner knuckle - mimic left knuckle -->
+    <joint name="$(arg tf_prefix)robotiq_85_left_inner_knuckle_joint">
+      <param name="mimic">$(arg tf_prefix)robotiq_85_left_knuckle_joint</param>
+      <param name="multiplier">1.0</param>
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <!-- Right inner knuckle - mimic left knuckle with -1 multiplier -->
+    <joint name="$(arg tf_prefix)robotiq_85_right_inner_knuckle_joint">
+      <param name="mimic">$(arg tf_prefix)robotiq_85_left_knuckle_joint</param>
+      <param name="multiplier">-1.0</param>
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <!-- Left finger tip - mimic left knuckle with negative multiplier -->
+    <joint name="$(arg tf_prefix)robotiq_85_left_finger_tip_joint">
+      <param name="mimic">$(arg tf_prefix)robotiq_85_left_knuckle_joint</param>
+      <param name="multiplier">-1.0</param>
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <!-- Right finger tip - mimic left knuckle -->
+    <joint name="$(arg tf_prefix)robotiq_85_right_finger_tip_joint">
+      <param name="mimic">$(arg tf_prefix)robotiq_85_left_knuckle_joint</param>
+      <param name="multiplier">1.0</param>
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+</robot>

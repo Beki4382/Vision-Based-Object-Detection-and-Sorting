@@ -1,0 +1,12 @@
+# Python dependencies for Perfect YOLO V1
+# Install with: pip install -r requirements.txt
+
+# YOLOv8 object detection
+ultralytics>=8.0.0
+
+# Computer vision
+opencv-python>=4.5.0
+numpy>=1.21.0
+
+# Note: cv_bridge is installed via apt:
+#   sudo apt install ros-jazzy-cv-bridge ros-jazzy-ros-gz-image
